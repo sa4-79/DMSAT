@@ -45,3 +45,4 @@ OUTPUTFILE	setting the value of temporary output file
 After setting the values of the above mentioned environment variable(see Debug/run.sh for sample values), we can run SAT solver as 
 
 ./DMSAT <path to the CNF file>
+in the case of any problem or question please contact sajjad.asghar@unb.ca
