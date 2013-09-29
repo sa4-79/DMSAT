@@ -2,7 +2,7 @@ DMSAT Version 1.0.0 28/09/2013
 =============================================================================
 GENERAL USAGE NOTES
 ---------------------
-- DMSAT is a sat solver that is developed to run on top of Distributed Resource Management Systems(DRMS). The testing of this version is done using with Oracle Grid Engine (OGE).
+- DMSAT is a sat solver that is developed to run on top of Distributed Resource Management Systems(DRMS). The testing of this version is done using Oracle Grid Engine (OGE).
 
 - Make sure to set the values of required environment variables before running the DMSAT
 
@@ -32,7 +32,7 @@ Modify the following makfiles before building the project and set the values of 
 cd Debug
 make all
 or
-There is an eclipse CDT project file is provided with this distribution, import the project in eclipse and then you can build it from CDT.
+There is an eclipse CDT project file that is provided with this distribution, import the project in eclipse and then you can build it from CDT.
 ================================================================================
 EXAMPLES:
 A sample run script run.sh is provided in the Debug directory. Before running DMSAT make sure to set following environment variables.
