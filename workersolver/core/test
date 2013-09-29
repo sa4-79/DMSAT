@@ -1,0 +1,2753 @@
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-redhat-linux-gnu
+Reading makefiles...
+Reading makefile `Makefile'...
+Reading makefile `/home/sasghar/test/minisat/mtl/template.mk' (search path) (no ~ expansion)...
+Reading makefile `/home/sasghar/test/minisat/mtl/config.mk' (search path) (don't care) (no ~ expansion)...
+Reading makefile `depend.mk' (search path) (don't care) (no ~ expansion)...
+Updating makefiles....
+ Considering target file `depend.mk'.
+  File `depend.mk' does not exist.
+   Considering target file `/home/sasghar/test/minisat/core/Main.cc'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Main.cc'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Main.cc,v'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Main.cc,v'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Main.cc'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Main.cc'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Main.cc'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Main.cc'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Main.cc'.
+   No need to remake target `/home/sasghar/test/minisat/core/Main.cc'.
+   Considering target file `/home/sasghar/test/minisat/core/Solver.cc'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Solver.cc'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Solver.cc,v'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.cc,v'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.cc'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Solver.cc'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Solver.cc'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Solver.cc'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Solver.cc'.
+   No need to remake target `/home/sasghar/test/minisat/core/Solver.cc'.
+   Considering target file `/home/sasghar/test/minisat/core/Dimacs.h'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Dimacs.h'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Dimacs.h,v'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Dimacs.h,v'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Dimacs.h'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Dimacs.h'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Dimacs.h'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Dimacs.h'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Dimacs.h'.
+   No need to remake target `/home/sasghar/test/minisat/core/Dimacs.h'.
+   Considering target file `/home/sasghar/test/minisat/core/Solver.h'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Solver.h'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Solver.h,v'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.h,v'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.h'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Solver.h'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Solver.h'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Solver.h'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Solver.h'.
+   No need to remake target `/home/sasghar/test/minisat/core/Solver.h'.
+   Considering target file `/home/sasghar/test/minisat/core/SolverTypes.h'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/SolverTypes.h'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SolverTypes.h,v'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/SolverTypes.h,v'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/SolverTypes.h'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.SolverTypes.h'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.SolverTypes.h'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/SolverTypes.h'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/SolverTypes.h'.
+   No need to remake target `/home/sasghar/test/minisat/core/SolverTypes.h'.
+  Finished prerequisites of target file `depend.mk'.
+ Must remake target `depend.mk'.
+Putting child 0x0a72b800 (depend.mk) PID 17942 on the chain.
+Live child 0x0a72b800 (depend.mk) PID 17942 
+Making dependencies
+Reaping winning child 0x0a72b800 PID 17942 
+Live child 0x0a72b800 (depend.mk) PID 17943 
+Reaping winning child 0x0a72b800 PID 17943 
+Live child 0x0a72b800 (depend.mk) PID 17948 
+Reaping winning child 0x0a72b800 PID 17948 
+Removing child 0x0a72b800 PID 17948 from chain.
+ Successfully remade target file `depend.mk'.
+ Considering target file `/home/sasghar/test/minisat/mtl/config.mk'.
+  Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.o'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.sh'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk,v'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk,v'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.o'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.o,v'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.o,v'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.o'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.o'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.o'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc,v'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cc,v'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cc'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.cc'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.y'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c,v'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.c,v'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.c'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.c'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.c'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.y'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.y,v'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.y,v'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.y'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.y'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.y'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l,v'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.l,v'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.l'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.l'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.l'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w,v'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.w,v'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.w'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.w'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.w'.
+    Trying pattern rule with stem `config.mk'.
+    Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C,v'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.C,v'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.C'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.C'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.C'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp,v'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cpp,v'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cpp'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.cpp'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.cpp'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.web'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p,v'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.p,v'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.p'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.p'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.p'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.web'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.web,v'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.web,v'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.web'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.web'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.web'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f,v'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.f,v'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.f'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.f'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.f'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F,v'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.F,v'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.F'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.F'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.F'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk'.
+     Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r,v'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.r,v'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.r'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.r'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.r'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s,v'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.s,v'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.s'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.s'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.s'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S,v'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.S,v'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.S'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.S'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.S'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod,v'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.mod,v'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.mod'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.mod'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.mod'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.sh'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.sh,v'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.sh,v'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.sh'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.sh'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.sh'.
+  No implicit rule found for `/home/sasghar/test/minisat/mtl/config.mk'.
+  Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/config.mk'.
+ No need to remake target `/home/sasghar/test/minisat/mtl/config.mk'.
+ Considering target file `/home/sasghar/test/minisat/mtl/template.mk'.
+  Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.o'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.sh'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk,v'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk,v'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.o'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.o,v'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.o,v'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.o'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.o'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.o'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc,v'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cc,v'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cc'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.cc'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.y'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c,v'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.c,v'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.c'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.c'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.c'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.y'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.y,v'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.y,v'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.y'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.y'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.y'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l,v'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.l,v'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.l'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.l'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.l'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w,v'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.w,v'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.w'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.w'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.w'.
+    Trying pattern rule with stem `template.mk'.
+    Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C,v'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.C,v'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.C'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.C'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.C'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp,v'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cpp,v'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cpp'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.cpp'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.cpp'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.web'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p,v'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.p,v'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.p'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.p'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.p'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.web'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.web,v'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.web,v'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.web'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.web'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.web'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f,v'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.f,v'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.f'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.f'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.f'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F,v'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.F,v'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.F'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.F'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.F'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk'.
+     Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r,v'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.r,v'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.r'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.r'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.r'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s,v'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.s,v'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.s'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.s'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.s'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S,v'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.S,v'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.S'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.S'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.S'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod,v'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.mod,v'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.mod'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.mod'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.mod'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.sh'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.sh,v'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.sh,v'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.sh'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.sh'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.sh'.
+  No implicit rule found for `/home/sasghar/test/minisat/mtl/template.mk'.
+  Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/template.mk'.
+ No need to remake target `/home/sasghar/test/minisat/mtl/template.mk'.
+ Considering target file `Makefile'.
+  Looking for an implicit rule for `Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `SCCS/s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Looking for a rule with intermediate file `Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `s.Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `SCCS/s.Makefile.o'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Looking for a rule with intermediate file `Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `s.Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Looking for a rule with intermediate file `Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `s.Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `SCCS/s.Makefile.c'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Looking for a rule with intermediate file `Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `s.Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `SCCS/s.Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Looking for a rule with intermediate file `Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `s.Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `SCCS/s.Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Looking for a rule with intermediate file `Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `s.Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `SCCS/s.Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Rejecting impossible implicit prerequisite `Makefile.w'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Looking for a rule with intermediate file `Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `s.Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `SCCS/s.Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Looking for a rule with intermediate file `Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `s.Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Looking for a rule with intermediate file `Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `s.Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `SCCS/s.Makefile.p'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Looking for a rule with intermediate file `Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `s.Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `SCCS/s.Makefile.web'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Looking for a rule with intermediate file `Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `s.Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `SCCS/s.Makefile.f'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Looking for a rule with intermediate file `Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `s.Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `SCCS/s.Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Looking for a rule with intermediate file `Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile'.
+     Rejecting impossible implicit prerequisite `Makefile.l'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `s.Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `SCCS/s.Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Looking for a rule with intermediate file `Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `s.Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `SCCS/s.Makefile.s'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Looking for a rule with intermediate file `Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `s.Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `SCCS/s.Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Looking for a rule with intermediate file `Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `s.Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Looking for a rule with intermediate file `Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `s.Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `SCCS/s.Makefile.sh'.
+  No implicit rule found for `Makefile'.
+  Finished prerequisites of target file `Makefile'.
+ No need to remake target `Makefile'.
+Re-executing[1]: make -d rs
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.
+There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE.
+
+This program built for x86_64-redhat-linux-gnu
+Reading makefiles...
+Reading makefile `Makefile'...
+Reading makefile `/home/sasghar/test/minisat/mtl/template.mk' (search path) (no ~ expansion)...
+Reading makefile `/home/sasghar/test/minisat/mtl/config.mk' (search path) (don't care) (no ~ expansion)...
+Reading makefile `depend.mk' (search path) (don't care) (no ~ expansion)...
+Updating makefiles....
+ Considering target file `depend.mk'.
+   Considering target file `/home/sasghar/test/minisat/core/Main.cc'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Main.cc'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Main.cc,v'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Main.cc,v'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Main.cc'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Main.cc'.
+    Trying pattern rule with stem `Main.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Main.cc'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Main.cc'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Main.cc'.
+   No need to remake target `/home/sasghar/test/minisat/core/Main.cc'.
+   Considering target file `/home/sasghar/test/minisat/core/Solver.cc'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Solver.cc'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Solver.cc,v'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.cc,v'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.cc'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Solver.cc'.
+    Trying pattern rule with stem `Solver.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Solver.cc'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Solver.cc'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Solver.cc'.
+   No need to remake target `/home/sasghar/test/minisat/core/Solver.cc'.
+   Considering target file `/home/sasghar/test/minisat/core/Dimacs.h'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Dimacs.h'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Dimacs.h,v'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Dimacs.h,v'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Dimacs.h'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Dimacs.h'.
+    Trying pattern rule with stem `Dimacs.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Dimacs.h'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Dimacs.h'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Dimacs.h'.
+   No need to remake target `/home/sasghar/test/minisat/core/Dimacs.h'.
+   Considering target file `/home/sasghar/test/minisat/core/Solver.h'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/Solver.h'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/Solver.h,v'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.h,v'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/Solver.h'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.Solver.h'.
+    Trying pattern rule with stem `Solver.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.Solver.h'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/Solver.h'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/Solver.h'.
+   No need to remake target `/home/sasghar/test/minisat/core/Solver.h'.
+   Considering target file `/home/sasghar/test/minisat/core/SolverTypes.h'.
+    Looking for an implicit rule for `/home/sasghar/test/minisat/core/SolverTypes.h'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SolverTypes.h,v'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/SolverTypes.h,v'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/RCS/SolverTypes.h'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/s.SolverTypes.h'.
+    Trying pattern rule with stem `SolverTypes.h'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/core/SCCS/s.SolverTypes.h'.
+    No implicit rule found for `/home/sasghar/test/minisat/core/SolverTypes.h'.
+    Finished prerequisites of target file `/home/sasghar/test/minisat/core/SolverTypes.h'.
+   No need to remake target `/home/sasghar/test/minisat/core/SolverTypes.h'.
+  Finished prerequisites of target file `depend.mk'.
+  Prerequisite `/home/sasghar/test/minisat/core/Main.cc' is older than target `depend.mk'.
+  Prerequisite `/home/sasghar/test/minisat/core/Solver.cc' is older than target `depend.mk'.
+  Prerequisite `/home/sasghar/test/minisat/core/Dimacs.h' is older than target `depend.mk'.
+  Prerequisite `/home/sasghar/test/minisat/core/Solver.h' is older than target `depend.mk'.
+  Prerequisite `/home/sasghar/test/minisat/core/SolverTypes.h' is older than target `depend.mk'.
+ No need to remake target `depend.mk'.
+ Considering target file `/home/sasghar/test/minisat/mtl/config.mk'.
+  Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.o'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.sh'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk,v'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk,v'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.o'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.o,v'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.o,v'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.o'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.o'.
+   Trying pattern rule with stem `config.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.o'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc,v'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cc,v'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cc'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.cc'.
+    Trying pattern rule with stem `config.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.y'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c,v'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.c,v'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.c'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.c'.
+    Trying pattern rule with stem `config.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.c'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.y'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.y,v'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.y,v'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.y'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.y'.
+     Trying pattern rule with stem `config.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.y'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l,v'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.l,v'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.l'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.l'.
+     Trying pattern rule with stem `config.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.l'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w,v'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.w,v'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.w'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.w'.
+     Trying pattern rule with stem `config.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.w'.
+    Trying pattern rule with stem `config.mk'.
+    Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.w'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C,v'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.C,v'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.C'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.C'.
+    Trying pattern rule with stem `config.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.C'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp,v'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cpp,v'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.cpp'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.cpp'.
+    Trying pattern rule with stem `config.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.cpp'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.web'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p,v'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.p,v'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.p'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.p'.
+    Trying pattern rule with stem `config.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.p'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.web'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.web,v'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.web,v'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.web'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.web'.
+     Trying pattern rule with stem `config.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.web'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f,v'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.f,v'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.f'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.f'.
+    Trying pattern rule with stem `config.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.f'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F,v'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.F,v'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.F'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.F'.
+     Trying pattern rule with stem `config.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.F'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk'.
+     Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.l'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r,v'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.r,v'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.r'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.r'.
+     Trying pattern rule with stem `config.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.r'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s,v'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.s,v'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.s'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.s'.
+    Trying pattern rule with stem `config.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.s'.
+    Trying pattern rule with stem `config.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S,v'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.S,v'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.S'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.S'.
+     Trying pattern rule with stem `config.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.S'.
+   Trying pattern rule with stem `config.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+   Trying pattern rule with stem `config.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod,v'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.mod,v'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.mod'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.mod'.
+    Trying pattern rule with stem `config.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.mod'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.c'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cc'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.C'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.cpp'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.p'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.f'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.F'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.r'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.s'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.S'.
+  Trying pattern rule with stem `config.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.mod'.
+  Trying pattern rule with stem `config.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.sh'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/config.mk.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/config.mk.sh,v'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.sh,v'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/config.mk.sh'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.config.mk.sh'.
+   Trying pattern rule with stem `config.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.config.mk.sh'.
+  No implicit rule found for `/home/sasghar/test/minisat/mtl/config.mk'.
+  Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/config.mk'.
+ No need to remake target `/home/sasghar/test/minisat/mtl/config.mk'.
+ Considering target file `/home/sasghar/test/minisat/mtl/template.mk'.
+  Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.o'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.sh'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk,v'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk,v'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.o'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.o,v'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.o,v'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.o'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.o'.
+   Trying pattern rule with stem `template.mk.o'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.o'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc,v'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cc,v'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cc'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.cc'.
+    Trying pattern rule with stem `template.mk.cc'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.y'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c,v'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.c,v'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.c'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.c'.
+    Trying pattern rule with stem `template.mk.c'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.c'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.y'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.y,v'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.y,v'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.y'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.y'.
+     Trying pattern rule with stem `template.mk.y'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.y'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l,v'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.l,v'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.l'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.l'.
+     Trying pattern rule with stem `template.mk.l'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.l'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w,v'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.w,v'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.w'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.w'.
+     Trying pattern rule with stem `template.mk.w'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.w'.
+    Trying pattern rule with stem `template.mk'.
+    Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.w'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C,v'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.C,v'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.C'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.C'.
+    Trying pattern rule with stem `template.mk.C'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.C'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp,v'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cpp,v'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.cpp'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.cpp'.
+    Trying pattern rule with stem `template.mk.cpp'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.cpp'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.web'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p,v'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.p,v'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.p'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.p'.
+    Trying pattern rule with stem `template.mk.p'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.p'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.web'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.web,v'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.web,v'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.web'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.web'.
+     Trying pattern rule with stem `template.mk.web'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.web'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f,v'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.f,v'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.f'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.f'.
+    Trying pattern rule with stem `template.mk.f'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.f'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F,v'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.F,v'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.F'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.F'.
+     Trying pattern rule with stem `template.mk.F'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.F'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk'.
+     Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.l'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r,v'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.r,v'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.r'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.r'.
+     Trying pattern rule with stem `template.mk.r'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.r'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s,v'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.s,v'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.s'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.s'.
+    Trying pattern rule with stem `template.mk.s'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.s'.
+    Trying pattern rule with stem `template.mk'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+    Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S,v'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.S,v'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.S'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.S'.
+     Trying pattern rule with stem `template.mk.S'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.S'.
+   Trying pattern rule with stem `template.mk'.
+   Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+   Trying pattern rule with stem `template.mk'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+   Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod,v'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.mod,v'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.mod'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.mod'.
+    Trying pattern rule with stem `template.mk.mod'.
+    Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.mod'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.c'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cc'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.C'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.cpp'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.p'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.f'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.F'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.r'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.s'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.S'.
+  Trying pattern rule with stem `template.mk'.
+  Rejecting impossible implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.mod'.
+  Trying pattern rule with stem `template.mk'.
+  Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.sh'.
+  Looking for a rule with intermediate file `/home/sasghar/test/minisat/mtl/template.mk.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/template.mk.sh,v'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.sh,v'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/template.mk.sh'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.template.mk.sh'.
+   Trying pattern rule with stem `template.mk.sh'.
+   Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.template.mk.sh'.
+  No implicit rule found for `/home/sasghar/test/minisat/mtl/template.mk'.
+  Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/template.mk'.
+ No need to remake target `/home/sasghar/test/minisat/mtl/template.mk'.
+ Considering target file `Makefile'.
+  Looking for an implicit rule for `Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile,v'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `RCS/Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `SCCS/s.Makefile'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.o'.
+  Looking for a rule with intermediate file `Makefile.o'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o,v'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `RCS/Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `s.Makefile.o'.
+   Trying pattern rule with stem `Makefile.o'.
+   Trying implicit prerequisite `SCCS/s.Makefile.o'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cc'.
+   Looking for a rule with intermediate file `Makefile.cc'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc,v'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `RCS/Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `s.Makefile.cc'.
+    Trying pattern rule with stem `Makefile.cc'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.c'.
+   Looking for a rule with intermediate file `Makefile.c'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c,v'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `RCS/Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `s.Makefile.c'.
+    Trying pattern rule with stem `Makefile.c'.
+    Trying implicit prerequisite `SCCS/s.Makefile.c'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.y'.
+    Looking for a rule with intermediate file `Makefile.y'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y,v'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `RCS/Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `s.Makefile.y'.
+     Trying pattern rule with stem `Makefile.y'.
+     Trying implicit prerequisite `SCCS/s.Makefile.y'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.l'.
+    Looking for a rule with intermediate file `Makefile.l'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l,v'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `RCS/Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `s.Makefile.l'.
+     Trying pattern rule with stem `Makefile.l'.
+     Trying implicit prerequisite `SCCS/s.Makefile.l'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.w'.
+    Looking for a rule with intermediate file `Makefile.w'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w,v'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `RCS/Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `s.Makefile.w'.
+     Trying pattern rule with stem `Makefile.w'.
+     Trying implicit prerequisite `SCCS/s.Makefile.w'.
+    Trying pattern rule with stem `Makefile'.
+    Rejecting impossible implicit prerequisite `Makefile.w'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.cc'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.C'.
+   Looking for a rule with intermediate file `Makefile.C'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C,v'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `RCS/Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `s.Makefile.C'.
+    Trying pattern rule with stem `Makefile.C'.
+    Trying implicit prerequisite `SCCS/s.Makefile.C'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.cpp'.
+   Looking for a rule with intermediate file `Makefile.cpp'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp,v'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `RCS/Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `s.Makefile.cpp'.
+    Trying pattern rule with stem `Makefile.cpp'.
+    Trying implicit prerequisite `SCCS/s.Makefile.cpp'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.p'.
+   Looking for a rule with intermediate file `Makefile.p'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p,v'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `RCS/Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `s.Makefile.p'.
+    Trying pattern rule with stem `Makefile.p'.
+    Trying implicit prerequisite `SCCS/s.Makefile.p'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.web'.
+    Looking for a rule with intermediate file `Makefile.web'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web,v'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `RCS/Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `s.Makefile.web'.
+     Trying pattern rule with stem `Makefile.web'.
+     Trying implicit prerequisite `SCCS/s.Makefile.web'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.f'.
+   Looking for a rule with intermediate file `Makefile.f'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f,v'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `RCS/Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `s.Makefile.f'.
+    Trying pattern rule with stem `Makefile.f'.
+    Trying implicit prerequisite `SCCS/s.Makefile.f'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.F'.
+    Looking for a rule with intermediate file `Makefile.F'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F,v'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `RCS/Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `s.Makefile.F'.
+     Trying pattern rule with stem `Makefile.F'.
+     Trying implicit prerequisite `SCCS/s.Makefile.F'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.r'.
+    Looking for a rule with intermediate file `Makefile.r'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile'.
+     Rejecting impossible implicit prerequisite `Makefile.l'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r,v'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `RCS/Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `s.Makefile.r'.
+     Trying pattern rule with stem `Makefile.r'.
+     Trying implicit prerequisite `SCCS/s.Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.F'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.r'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.s'.
+   Looking for a rule with intermediate file `Makefile.s'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s,v'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `RCS/Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `s.Makefile.s'.
+    Trying pattern rule with stem `Makefile.s'.
+    Trying implicit prerequisite `SCCS/s.Makefile.s'.
+    Trying pattern rule with stem `Makefile'.
+    Trying implicit prerequisite `Makefile.S'.
+    Looking for a rule with intermediate file `Makefile.S'.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Avoiding implicit rule recursion.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S,v'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `RCS/Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `s.Makefile.S'.
+     Trying pattern rule with stem `Makefile.S'.
+     Trying implicit prerequisite `SCCS/s.Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Rejecting impossible implicit prerequisite `Makefile.S'.
+   Trying pattern rule with stem `Makefile'.
+   Trying implicit prerequisite `Makefile.mod'.
+   Looking for a rule with intermediate file `Makefile.mod'.
+    Avoiding implicit rule recursion.
+    Avoiding implicit rule recursion.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod,v'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `RCS/Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `s.Makefile.mod'.
+    Trying pattern rule with stem `Makefile.mod'.
+    Trying implicit prerequisite `SCCS/s.Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.c'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cc'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.C'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.cpp'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.p'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.f'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.F'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.r'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.s'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.S'.
+  Trying pattern rule with stem `Makefile'.
+  Rejecting impossible implicit prerequisite `Makefile.mod'.
+  Trying pattern rule with stem `Makefile'.
+  Trying implicit prerequisite `Makefile.sh'.
+  Looking for a rule with intermediate file `Makefile.sh'.
+   Avoiding implicit rule recursion.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh,v'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `RCS/Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `s.Makefile.sh'.
+   Trying pattern rule with stem `Makefile.sh'.
+   Trying implicit prerequisite `SCCS/s.Makefile.sh'.
+  No implicit rule found for `Makefile'.
+  Finished prerequisites of target file `Makefile'.
+ No need to remake target `Makefile'.
+Updating goal targets....
+Considering target file `rs'.
+ File `rs' does not exist.
+  Considering target file `minisat_static'.
+   File `minisat_static' does not exist.
+    Considering target file `/home/sasghar/test/minisat/core/Main.or'.
+     File `/home/sasghar/test/minisat/core/Main.or' does not exist.
+     Looking for an implicit rule for `/home/sasghar/test/minisat/core/Main.or'.
+     Trying pattern rule with stem `Main'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/core/Main.cc'.
+     Found an implicit rule for `/home/sasghar/test/minisat/core/Main.or'.
+      Pruning file `/home/sasghar/test/minisat/core/Main.cc'.
+      Pruning file `/home/sasghar/test/minisat/core/Main.cc'.
+      Considering target file `/home/sasghar/test/minisat/utils/System.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/utils/System.h'.
+       Trying pattern rule with stem `System.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/System.h,v'.
+       Trying pattern rule with stem `System.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/System.h,v'.
+       Trying pattern rule with stem `System.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/System.h'.
+       Trying pattern rule with stem `System.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/s.System.h'.
+       Trying pattern rule with stem `System.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/SCCS/s.System.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/utils/System.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/utils/System.h'.
+      No need to remake target `/home/sasghar/test/minisat/utils/System.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+       Trying pattern rule with stem `IntTypes.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/IntTypes.h,v'.
+       Trying pattern rule with stem `IntTypes.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/IntTypes.h,v'.
+       Trying pattern rule with stem `IntTypes.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/IntTypes.h'.
+       Trying pattern rule with stem `IntTypes.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.IntTypes.h'.
+       Trying pattern rule with stem `IntTypes.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.IntTypes.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      Considering target file `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+       Trying pattern rule with stem `ParseUtils.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/ParseUtils.h,v'.
+       Trying pattern rule with stem `ParseUtils.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/ParseUtils.h,v'.
+       Trying pattern rule with stem `ParseUtils.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/ParseUtils.h'.
+       Trying pattern rule with stem `ParseUtils.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/s.ParseUtils.h'.
+       Trying pattern rule with stem `ParseUtils.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/SCCS/s.ParseUtils.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+      No need to remake target `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+      Considering target file `/home/sasghar/test/minisat/utils/Options.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/utils/Options.h'.
+       Trying pattern rule with stem `Options.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/Options.h,v'.
+       Trying pattern rule with stem `Options.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/Options.h,v'.
+       Trying pattern rule with stem `Options.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/Options.h'.
+       Trying pattern rule with stem `Options.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/s.Options.h'.
+       Trying pattern rule with stem `Options.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/SCCS/s.Options.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/utils/Options.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/utils/Options.h'.
+      No need to remake target `/home/sasghar/test/minisat/utils/Options.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/Vec.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/Vec.h'.
+       Trying pattern rule with stem `Vec.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/Vec.h,v'.
+       Trying pattern rule with stem `Vec.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Vec.h,v'.
+       Trying pattern rule with stem `Vec.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Vec.h'.
+       Trying pattern rule with stem `Vec.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.Vec.h'.
+       Trying pattern rule with stem `Vec.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.Vec.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/Vec.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/Vec.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/Vec.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/XAlloc.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/XAlloc.h'.
+       Trying pattern rule with stem `XAlloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/XAlloc.h,v'.
+       Trying pattern rule with stem `XAlloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/XAlloc.h,v'.
+       Trying pattern rule with stem `XAlloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/XAlloc.h'.
+       Trying pattern rule with stem `XAlloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.XAlloc.h'.
+       Trying pattern rule with stem `XAlloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.XAlloc.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/XAlloc.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/XAlloc.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/XAlloc.h'.
+      Pruning file `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+      Pruning file `/home/sasghar/test/minisat/core/Dimacs.h'.
+      Pruning file `/home/sasghar/test/minisat/core/SolverTypes.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/Alg.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/Alg.h'.
+       Trying pattern rule with stem `Alg.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/Alg.h,v'.
+       Trying pattern rule with stem `Alg.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Alg.h,v'.
+       Trying pattern rule with stem `Alg.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Alg.h'.
+       Trying pattern rule with stem `Alg.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.Alg.h'.
+       Trying pattern rule with stem `Alg.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.Alg.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/Alg.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/Alg.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/Alg.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Vec.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Vec.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/Map.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/Map.h'.
+       Trying pattern rule with stem `Map.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/Map.h,v'.
+       Trying pattern rule with stem `Map.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Map.h,v'.
+       Trying pattern rule with stem `Map.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Map.h'.
+       Trying pattern rule with stem `Map.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.Map.h'.
+       Trying pattern rule with stem `Map.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.Map.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/Map.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/Map.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/Map.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/Alloc.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/Alloc.h'.
+       Trying pattern rule with stem `Alloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/Alloc.h,v'.
+       Trying pattern rule with stem `Alloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Alloc.h,v'.
+       Trying pattern rule with stem `Alloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Alloc.h'.
+       Trying pattern rule with stem `Alloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.Alloc.h'.
+       Trying pattern rule with stem `Alloc.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.Alloc.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/Alloc.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/Alloc.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/Alloc.h'.
+      Pruning file `/home/sasghar/test/minisat/core/Solver.h'.
+      Considering target file `/home/sasghar/test/minisat/mtl/Heap.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/Heap.h'.
+       Trying pattern rule with stem `Heap.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/Heap.h,v'.
+       Trying pattern rule with stem `Heap.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Heap.h,v'.
+       Trying pattern rule with stem `Heap.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Heap.h'.
+       Trying pattern rule with stem `Heap.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.Heap.h'.
+       Trying pattern rule with stem `Heap.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.Heap.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/Heap.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/Heap.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/Heap.h'.
+     Finished prerequisites of target file `/home/sasghar/test/minisat/core/Main.or'.
+    Must remake target `/home/sasghar/test/minisat/core/Main.or'.
+Putting child 0x06e2c2b0 (/home/sasghar/test/minisat/core/Main.or) PID 17961 on the chain.
+Live child 0x06e2c2b0 (/home/sasghar/test/minisat/core/Main.or) PID 17961 
+Compiling: core/Main.or
+Reaping winning child 0x06e2c2b0 PID 17961 
+Live child 0x06e2c2b0 (/home/sasghar/test/minisat/core/Main.or) PID 17962 
+Reaping winning child 0x06e2c2b0 PID 17962 
+Removing child 0x06e2c2b0 PID 17962 from chain.
+    Successfully remade target file `/home/sasghar/test/minisat/core/Main.or'.
+    Considering target file `/home/sasghar/test/minisat/core/Solver.or'.
+     File `/home/sasghar/test/minisat/core/Solver.or' does not exist.
+     Looking for an implicit rule for `/home/sasghar/test/minisat/core/Solver.or'.
+     Trying pattern rule with stem `Solver'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/core/Solver.cc'.
+     Found an implicit rule for `/home/sasghar/test/minisat/core/Solver.or'.
+      Pruning file `/home/sasghar/test/minisat/core/Solver.cc'.
+      Pruning file `/home/sasghar/test/minisat/core/Solver.cc'.
+      Considering target file `/home/sasghar/test/minisat/mtl/Sort.h'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/mtl/Sort.h'.
+       Trying pattern rule with stem `Sort.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/Sort.h,v'.
+       Trying pattern rule with stem `Sort.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Sort.h,v'.
+       Trying pattern rule with stem `Sort.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/RCS/Sort.h'.
+       Trying pattern rule with stem `Sort.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/s.Sort.h'.
+       Trying pattern rule with stem `Sort.h'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/mtl/SCCS/s.Sort.h'.
+       No implicit rule found for `/home/sasghar/test/minisat/mtl/Sort.h'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/mtl/Sort.h'.
+      No need to remake target `/home/sasghar/test/minisat/mtl/Sort.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Vec.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/XAlloc.h'.
+      Pruning file `/home/sasghar/test/minisat/core/Solver.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Vec.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Heap.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Alg.h'.
+      Pruning file `/home/sasghar/test/minisat/utils/Options.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Vec.h'.
+      Pruning file `/home/sasghar/test/minisat/utils/ParseUtils.h'.
+      Pruning file `/home/sasghar/test/minisat/core/SolverTypes.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/IntTypes.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Map.h'.
+      Pruning file `/home/sasghar/test/minisat/mtl/Alloc.h'.
+     Finished prerequisites of target file `/home/sasghar/test/minisat/core/Solver.or'.
+    Must remake target `/home/sasghar/test/minisat/core/Solver.or'.
+Putting child 0x06e2d6d0 (/home/sasghar/test/minisat/core/Solver.or) PID 17966 on the chain.
+Live child 0x06e2d6d0 (/home/sasghar/test/minisat/core/Solver.or) PID 17966 
+Compiling: core/Solver.or
+Reaping winning child 0x06e2d6d0 PID 17966 
+Live child 0x06e2d6d0 (/home/sasghar/test/minisat/core/Solver.or) PID 17967 
+Reaping winning child 0x06e2d6d0 PID 17967 
+Removing child 0x06e2d6d0 PID 17967 from chain.
+    Successfully remade target file `/home/sasghar/test/minisat/core/Solver.or'.
+    Considering target file `/home/sasghar/test/minisat/utils/Options.or'.
+     File `/home/sasghar/test/minisat/utils/Options.or' does not exist.
+     Looking for an implicit rule for `/home/sasghar/test/minisat/utils/Options.or'.
+     Trying pattern rule with stem `Options'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/utils/Options.cc'.
+     Found an implicit rule for `/home/sasghar/test/minisat/utils/Options.or'.
+      Considering target file `/home/sasghar/test/minisat/utils/Options.cc'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/utils/Options.cc'.
+       Trying pattern rule with stem `Options.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/Options.cc,v'.
+       Trying pattern rule with stem `Options.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/Options.cc,v'.
+       Trying pattern rule with stem `Options.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/Options.cc'.
+       Trying pattern rule with stem `Options.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/s.Options.cc'.
+       Trying pattern rule with stem `Options.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/SCCS/s.Options.cc'.
+       No implicit rule found for `/home/sasghar/test/minisat/utils/Options.cc'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/utils/Options.cc'.
+      No need to remake target `/home/sasghar/test/minisat/utils/Options.cc'.
+     Finished prerequisites of target file `/home/sasghar/test/minisat/utils/Options.or'.
+    Must remake target `/home/sasghar/test/minisat/utils/Options.or'.
+Putting child 0x06e2db80 (/home/sasghar/test/minisat/utils/Options.or) PID 17971 on the chain.
+Live child 0x06e2db80 (/home/sasghar/test/minisat/utils/Options.or) PID 17971 
+Compiling: utils/Options.or
+Reaping winning child 0x06e2db80 PID 17971 
+Live child 0x06e2db80 (/home/sasghar/test/minisat/utils/Options.or) PID 17972 
+Reaping winning child 0x06e2db80 PID 17972 
+Removing child 0x06e2db80 PID 17972 from chain.
+    Successfully remade target file `/home/sasghar/test/minisat/utils/Options.or'.
+    Considering target file `/home/sasghar/test/minisat/utils/System.or'.
+     File `/home/sasghar/test/minisat/utils/System.or' does not exist.
+     Looking for an implicit rule for `/home/sasghar/test/minisat/utils/System.or'.
+     Trying pattern rule with stem `System'.
+     Trying implicit prerequisite `/home/sasghar/test/minisat/utils/System.cc'.
+     Found an implicit rule for `/home/sasghar/test/minisat/utils/System.or'.
+      Considering target file `/home/sasghar/test/minisat/utils/System.cc'.
+       Looking for an implicit rule for `/home/sasghar/test/minisat/utils/System.cc'.
+       Trying pattern rule with stem `System.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/System.cc,v'.
+       Trying pattern rule with stem `System.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/System.cc,v'.
+       Trying pattern rule with stem `System.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/RCS/System.cc'.
+       Trying pattern rule with stem `System.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/s.System.cc'.
+       Trying pattern rule with stem `System.cc'.
+       Trying implicit prerequisite `/home/sasghar/test/minisat/utils/SCCS/s.System.cc'.
+       No implicit rule found for `/home/sasghar/test/minisat/utils/System.cc'.
+       Finished prerequisites of target file `/home/sasghar/test/minisat/utils/System.cc'.
+      No need to remake target `/home/sasghar/test/minisat/utils/System.cc'.
+     Finished prerequisites of target file `/home/sasghar/test/minisat/utils/System.or'.
+    Must remake target `/home/sasghar/test/minisat/utils/System.or'.
+Putting child 0x06e2ee00 (/home/sasghar/test/minisat/utils/System.or) PID 17976 on the chain.
+Live child 0x06e2ee00 (/home/sasghar/test/minisat/utils/System.or) PID 17976 
+Compiling: utils/System.or
+Reaping winning child 0x06e2ee00 PID 17976 
+Live child 0x06e2ee00 (/home/sasghar/test/minisat/utils/System.or) PID 17977 
+Reaping winning child 0x06e2ee00 PID 17977 
+Removing child 0x06e2ee00 PID 17977 from chain.
+    Successfully remade target file `/home/sasghar/test/minisat/utils/System.or'.
+   Finished prerequisites of target file `minisat_static'.
+  Must remake target `minisat_static'.
+Putting child 0x06e31e00 (minisat_static) PID 17981 on the chain.
+Live child 0x06e31e00 (minisat_static) PID 17981 
+Linking: minisat_static ( core/Main.or core/Solver.or utils/Options.or utils/System.or )
+Reaping winning child 0x06e31e00 PID 17981 
+Live child 0x06e31e00 (minisat_static) PID 17982 
+Reaping winning child 0x06e31e00 PID 17982 
+Removing child 0x06e31e00 PID 17982 from chain.
+  Successfully remade target file `minisat_static'.
+ Finished prerequisites of target file `rs'.
+Must remake target `rs'.
+Successfully remade target file `rs'.

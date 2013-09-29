@@ -16,7 +16,8 @@ mtl/            Mini Template Library
 utils/          Generic helper code (I/O, Parsing, CPU-time, etc)
 core/           A core version of the solver
 simp/           An extended solver with simplification capabilities
-Debug/		Has all building tools and make files.	
+Debug/			Has all building tools and make files.	
+workersolver	contains source code of miniSat that is modified to run as worker on remote machines, the environment variable WORKERSOLVER should points to directory 
 README
 LICENSE
 
