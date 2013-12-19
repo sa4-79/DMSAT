@@ -29,4 +29,5 @@ string getPaths(int pathLenght);
 void printStats1(Solver& solver);
 //void printStats1(Solver& solver);
 int mainSolver(int argc, char** argv);
+vector<string> getLearnt();
 #endif /* MAIN_H_ */

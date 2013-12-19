@@ -7,7 +7,7 @@ export TIMEOUT
 export COHORTSIZE
 # Setting the value for the wait time before subittng a new cohort of jobs
 
- WAITTIME="30";
+ WAITTIME="60";
 export WAITTIME
 
 # Setting the value for initial ramp-up time 
@@ -27,19 +27,19 @@ OUTPUTFILE="://home//sasghar//test/test.out"
 export OUTPUTFILE
 
 #run the solver
-#for i in $(cat listSeg)
-#do
-#echo $i
-# ./DMSAT $i
+for i in $(cat listRandomSeg)
+do
+echo $i
+ ./DMSAT $i
   #dig -p 54 @192.168.0.3 $i axfr > $i.hosts
-#done
- ./DMSAT /home/sasghar/Random/SAT11/SAT11/random/medium/unif-k3-r4.26-v250-c1065-S266251785-083.UNKNOWN.cnf
+done
+
 #time ./DMSAT /home/sasghar/Random/unsat/unif-k3-r4.25-v360-c1530-S1369720750-015.cnf
 #time ./DMSAT /home/sasghar/Random/unsat/unifk3r425v360c1530S1028159446096 
 
 #valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./DMSAT  /home/sasghar/Random/SAT/unifk3r425v360c1530S1459690542033
 
-time ./DMSAT  /home/sasghar/Random/SAT/unif-k3-r4.25-v360-c1530-S1459690542-033.cnf
+#time ./DMSAT  /home/sasghar/Random/SAT/unifk3r425v360c1530S1459690542033
 
 #time ./DMSAT /home/sasghar/Random/unsat/unifk3r425v360c1530S1369720750015
 #time ./DMSAT  /home/sasghar/Random/SAT/unifk3r425v380c1615S1041106011094

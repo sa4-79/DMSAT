@@ -10,6 +10,7 @@
 #include <iostream>
 #include<vector>
 #include<map>
+#include<time.h>
 #include <pthread.h>
 
 using namespace std;
@@ -23,15 +24,17 @@ private:
 public:
 
 	int current_batch;
+	clock_t StartTime;
 	pthread_mutex_t mutex1;
 	vector<string> jobsIds;
 	char* outputFile;
 	JobController();
 	virtual ~JobController();
 	bool runjob(vector<string> argv, char* outPut );
-	char* runAsyncjob(vector<string> argv, char* outPut );
+
+	string runAsyncjob(vector<string> argv, char* outPut );
 	bool analysis(char* outPut);
-	bool waitforJobs(char* jobid);
+	bool waitforJobs(string jobid);
 	bool cleanUp();
 };
 

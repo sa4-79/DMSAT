@@ -30,14 +30,14 @@ CPP_DEPS += \
 src/core/%.o: ../src/core/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/opt/n1ge/include/ -I/usr/local/boost/include -O3 -g0 -g -Wall -c -fmessage-length=0 -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -I/opt/n1ge/include/ -I/home/sasghar/Zeromq/zmq/include/ -I/usr/local/boost/include -O3 -g0 -g -Wall -c -fmessage-length=0 -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/core/%.o: ../src/core/%.cc
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/opt/n1ge/include/ -I/usr/local/boost/include -O3 -g0 -g -Wall -c -fmessage-length=0 -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -I/opt/n1ge/include/ -I/home/sasghar/Zeromq/zmq/include/ -I/usr/local/boost/include -O3 -g0 -g -Wall -c -fmessage-length=0 -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

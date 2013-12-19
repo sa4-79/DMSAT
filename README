@@ -38,6 +38,7 @@ There is an eclipse CDT project file that is provided with this distribution, im
 EXAMPLES:
 A sample run script run.sh is provided in the Debug directory. Before running DMSAT make sure to set following environment variables.
 ======================================================================
+TIMEOUT To set the value for timeout this is useful for SAT race competitions like mode of runnign where a job is killed after a defined number of seconds.
 COHORTSIZE 	Contain the value for the job cohort size
 WAITTIME	Setting the value for the wait time before submitting a new cohort of jobs
 RAMPUPTIME	Setting the value for initial ramp-up time

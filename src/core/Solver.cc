@@ -644,26 +644,7 @@ lbool Solver::search(int nof_conflicts)
     for (;;){
         CRef confl = propagate();
         if (confl != CRef_Undef){
-            // CONFLICT
-        	/* printf("**************************************\n");
-        	 for(int tt=0;tt<trail.size();tt++)
-        				{
-        		 	 	 	int t=var(trail[tt]);
-        		 	 	 	t--;
-        					if (value(t) != l_Undef)
-        				   printf( "Trail selected	  %s%s%d\n", (t==0)?"":" ", (value(t)==l_True)?"":"-", t+1);
 
-        				}
-        	 printf("**************************************\n");
-        	 printf("**************************************\n");
-        	        				for(int t=0;t<trail.size();t++)
-        	        				{
-
-        	        				   printf( "Trail selected	  %d\n", var(trail[t]));
-
-        	        				}
-        	        	 printf("**************************************\n");
-*/
         	 conflicts++; conflictC++;
             if (decisionLevel() == 0) return l_False;
 

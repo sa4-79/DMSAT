@@ -1,0 +1,403 @@
+HOSTNAME                ARCH         NCPU  LOAD  MEMTOT  MEMUSE  SWAPTO  SWAPUS
+-------------------------------------------------------------------------------
+global                  -               -     -       -       -       -       -
+cl001                   lx24-amd64     16  0.00  125.9G  748.2M   32.0G   59.4M
+cl002                   lx24-amd64     16  0.03  125.9G  616.9M   32.0G     0.0
+cl003                   lx24-amd64     16 17.12   62.9G    2.6G   32.0G  240.0K
+   job-ID  prior   name       user         state submit/start at     queue      master ja-task-ID 
+   ----------------------------------------------------------------------------------------------
+   4539221 1.50000 WW3        lguo         r     12/12/2013 16:43:18 short.q@cl MASTER        
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+                                                                     short.q@cl SLAVE         
+cl004                   lx24-amd64     16 15.16   62.9G  442.6M   32.0G  240.0K
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 70
+                                                                     short.q@cl SLAVE  70
+                                                                     short.q@cl SLAVE  70
+                                                                     short.q@cl SLAVE  70
+                                                                     short.q@cl SLAVE  70
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 71
+                                                                     short.q@cl SLAVE  71
+                                                                     short.q@cl SLAVE  71
+                                                                     short.q@cl SLAVE  71
+                                                                     short.q@cl SLAVE  71
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 72
+                                                                     short.q@cl SLAVE  72
+                                                                     short.q@cl SLAVE  72
+                                                                     short.q@cl SLAVE  72
+                                                                     short.q@cl SLAVE  72
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 73
+                                                                     short.q@cl SLAVE  73
+                                                                     short.q@cl SLAVE  73
+                                                                     short.q@cl SLAVE  73
+                                                                     short.q@cl SLAVE  73
+cl005                   lx24-amd64     16 15.39   62.9G  473.6M   32.0G  240.0K
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 74
+                                                                     short.q@cl SLAVE  74
+                                                                     short.q@cl SLAVE  74
+                                                                     short.q@cl SLAVE  74
+                                                                     short.q@cl SLAVE  74
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 75
+                                                                     short.q@cl SLAVE  75
+                                                                     short.q@cl SLAVE  75
+                                                                     short.q@cl SLAVE  75
+                                                                     short.q@cl SLAVE  75
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 76
+                                                                     short.q@cl SLAVE  76
+                                                                     short.q@cl SLAVE  76
+                                                                     short.q@cl SLAVE  76
+                                                                     short.q@cl SLAVE  76
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 77
+                                                                     short.q@cl SLAVE  77
+                                                                     short.q@cl SLAVE  77
+                                                                     short.q@cl SLAVE  77
+                                                                     short.q@cl SLAVE  77
+cl006                   lx24-amd64     16 15.80   62.9G  451.7M   32.0G  240.0K
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 78
+                                                                     short.q@cl SLAVE  78
+                                                                     short.q@cl SLAVE  78
+                                                                     short.q@cl SLAVE  78
+                                                                     short.q@cl SLAVE  78
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 79
+                                                                     short.q@cl SLAVE  79
+                                                                     short.q@cl SLAVE  79
+                                                                     short.q@cl SLAVE  79
+                                                                     short.q@cl SLAVE  79
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 80
+                                                                     short.q@cl SLAVE  80
+                                                                     short.q@cl SLAVE  80
+                                                                     short.q@cl SLAVE  80
+                                                                     short.q@cl SLAVE  80
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 81
+                                                                     short.q@cl SLAVE  81
+                                                                     short.q@cl SLAVE  81
+                                                                     short.q@cl SLAVE  81
+                                                                     short.q@cl SLAVE  81
+cl007                   lx24-amd64     16 15.29   59.1G  437.1M   32.0G  240.0K
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 82
+                                                                     short.q@cl SLAVE  82
+                                                                     short.q@cl SLAVE  82
+                                                                     short.q@cl SLAVE  82
+                                                                     short.q@cl SLAVE  82
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 83
+                                                                     short.q@cl SLAVE  83
+                                                                     short.q@cl SLAVE  83
+                                                                     short.q@cl SLAVE  83
+                                                                     short.q@cl SLAVE  83
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 84
+                                                                     short.q@cl SLAVE  84
+                                                                     short.q@cl SLAVE  84
+                                                                     short.q@cl SLAVE  84
+                                                                     short.q@cl SLAVE  84
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 85
+                                                                     short.q@cl SLAVE  85
+                                                                     short.q@cl SLAVE  85
+                                                                     short.q@cl SLAVE  85
+                                                                     short.q@cl SLAVE  85
+cl008                   lx24-amd64     16 16.36   62.9G  499.7M   32.0G  240.0K
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 86
+                                                                     short.q@cl SLAVE  86
+                                                                     short.q@cl SLAVE  86
+                                                                     short.q@cl SLAVE  86
+                                                                     short.q@cl SLAVE  86
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 87
+                                                                     short.q@cl SLAVE  87
+                                                                     short.q@cl SLAVE  87
+                                                                     short.q@cl SLAVE  87
+                                                                     short.q@cl SLAVE  87
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 88
+                                                                     short.q@cl SLAVE  88
+                                                                     short.q@cl SLAVE  88
+                                                                     short.q@cl SLAVE  88
+                                                                     short.q@cl SLAVE  88
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 89
+                                                                     short.q@cl SLAVE  89
+                                                                     short.q@cl SLAVE  89
+                                                                     short.q@cl SLAVE  89
+                                                                     short.q@cl SLAVE  89
+cl009                   lx24-amd64     16  2.52   62.9G  395.9M   32.0G  240.0K
+   4539172 0.50003 kpw        skelly       r     12/12/2013 16:40:18 short.q@cl MASTER 90
+                                                                     short.q@cl SLAVE  90
+                                                                     short.q@cl SLAVE  90
+                                                                     short.q@cl SLAVE  90
+                                                                     short.q@cl SLAVE  90
+cl010                   lx24-amd64     16  0.02   62.9G  490.8M   32.0G     0.0
+cl011                   lx24-amd64     16  0.00   62.9G  478.6M   32.0G  240.0K
+cl012                   lx24-amd64     16  0.02   62.9G  442.7M   32.0G    8.0K
+cl013                   lx24-amd64     16  0.01   62.9G  475.9M   32.0G  240.0K
+cl014                   lx24-amd64     16  0.00   62.9G  454.5M   32.0G     0.0
+cl015                   lx24-amd64     16  0.17   62.9G  500.8M   32.0G     0.0
+cl016                   lx24-amd64     16  0.00   62.9G  447.7M   32.0G     0.0
+cl017                   lx24-amd64     16  0.05   62.9G  437.0M   32.0G     0.0
+cl018                   lx24-amd64     16  0.00   62.9G  458.2M   32.0G     0.0
+cl019                   lx24-amd64     16  0.00   62.9G  496.0M   32.0G     0.0
+cl020                   lx24-amd64     16  0.01   62.9G  496.2M   32.0G     0.0
+cl021                   lx24-amd64     16 15.96   62.9G  696.4M   32.0G  240.0K
+   4539454 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539455 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539456 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539457 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539458 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539459 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539460 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539461 0.50110 minisat    sasghar      r     12/12/2013 17:13:33 short.q@cl MASTER        
+   4539470 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539471 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539472 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539473 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539474 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539475 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+cl022                   lx24-amd64     16 15.99   62.9G   30.4G   32.0G  128.0K
+   4539476 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539477 0.50110 minisat    sasghar      r     12/12/2013 17:14:33 short.q@cl MASTER        
+   4539486 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539487 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539488 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539489 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539490 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539491 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539492 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539493 0.50110 minisat    sasghar      r     12/12/2013 17:15:33 short.q@cl MASTER        
+   4539502 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539503 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539504 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539505 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539641 0.50110 minisat    sasghar      r     12/12/2013 17:28:48 short.q@cl MASTER        
+cl023                   lx24-amd64     16  7.34   63.0G   37.5G   32.0G  240.0K
+   4539615 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539616 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539617 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539618 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539619 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539620 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539621 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+   4539630 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 short.q@cl MASTER        
+   4539631 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 short.q@cl MASTER        
+cl024                   lx24-amd64     16 15.39   62.9G    5.1G   32.0G     0.0
+   4539506 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539507 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539508 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539509 0.50110 minisat    sasghar      r     12/12/2013 17:16:33 short.q@cl MASTER        
+   4539518 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539519 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539520 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539521 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539522 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539523 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539524 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539525 0.50110 minisat    sasghar      r     12/12/2013 17:17:33 short.q@cl MASTER        
+   4539534 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539535 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539649 0.50110 minisat    sasghar      r     12/12/2013 17:29:48 short.q@cl MASTER        
+   4539657 0.51333 minisat    sasghar      r     12/12/2013 17:30:48 short.q@cl MASTER        
+cl025                   lx24-amd64     16 15.05   62.9G    4.9G   32.0G     0.0
+   4539536 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539537 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539538 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539539 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539540 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539541 0.50110 minisat    sasghar      r     12/12/2013 17:18:33 short.q@cl MASTER        
+   4539550 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539551 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539552 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539553 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539554 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539555 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539556 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539557 0.50110 minisat    sasghar      r     12/12/2013 17:19:33 short.q@cl MASTER        
+   4539566 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+cl026                   lx24-amd64     16 14.00   62.9G  582.0M   32.0G  240.0K
+   4539567 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539568 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539569 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539570 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539571 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539572 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539573 0.50110 minisat    sasghar      r     12/12/2013 17:20:33 short.q@cl MASTER        
+   4539582 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539583 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539584 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539585 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539586 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539587 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539588 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+cl027                   lx24-amd64     16 16.97   62.9G  733.4M   32.0G     0.0
+   4503967 0.50294 Lin1       evorobyo     r     12/06/2013 08:32:51 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+   4503968 0.50294 Lin2       evorobyo     r     12/06/2013 08:34:21 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+cl028                   lx24-amd64     16 16.92   62.9G    3.3G   32.0G     0.0
+   4503969 0.50294 Lin3       evorobyo     r     12/06/2013 08:38:21 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+   4510420 0.50418 sevennhalf ccaskey      r     12/10/2013 14:20:33 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+cl029                   lx24-amd64     16 16.96   62.9G  665.8M   32.0G     0.0
+   4503970 0.50294 Lin4       evorobyo     r     12/06/2013 08:40:06 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+   4503971 0.50294 Lin5       evorobyo     r     12/06/2013 08:41:51 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+cl030                   lx24-amd64     16 17.00   62.9G    2.8G   32.0G     0.0
+   4503972 0.50294 norm       evorobyo     r     12/06/2013 08:48:06 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+   4505397 0.50418 sevennhalf ccaskey      r     12/08/2013 11:54:55 medium.q@c MASTER        
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+cl031                   lx24-amd64     16 12.02   62.9G    3.8G   32.0G     0.0
+   4505397 0.50418 sevennhalf ccaskey      r     12/08/2013 11:54:55 medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+   4510420 0.50418 sevennhalf ccaskey      r     12/10/2013 14:20:33 medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+cl032                   lx24-amd64     16  2.01   62.9G    1.1G   32.0G     0.0
+   4510420 0.50418 sevennhalf ccaskey      r     12/10/2013 14:20:33 medium.q@c SLAVE         
+                                                                     medium.q@c SLAVE         
+cl033                   lx24-amd64     16  0.00   62.9G  470.6M   32.0G     0.0
+cl034                   lx24-amd64     16 25.83   62.9G   21.5G   32.0G     0.0
+   4524003 0.50708 ci_02      alambrop     r     12/11/2013 16:55:18 medium.q@c MASTER        
+   4524004 0.50708 ci_03      alambrop     r     12/11/2013 16:55:33 medium.q@c MASTER        
+   4524061 0.50708 ci_04      alambrop     r     12/11/2013 16:58:33 medium.q@c MASTER        
+   4524078 0.50708 ci_05      alambrop     r     12/11/2013 17:00:33 medium.q@c MASTER        
+   4524095 0.50708 ci_06      alambrop     r     12/11/2013 17:02:33 medium.q@c MASTER        
+   4524112 0.50708 ci_07      alambrop     r     12/11/2013 17:04:18 medium.q@c MASTER        
+   4524129 0.50708 ci_08      alambrop     r     12/11/2013 17:06:03 medium.q@c MASTER        
+   4524138 0.50708 ci_09      alambrop     r     12/11/2013 17:07:18 medium.q@c MASTER        
+   4524147 0.50708 ci_10      alambrop     r     12/11/2013 17:08:48 medium.q@c MASTER        
+   4524164 0.50708 ci_11      alambrop     r     12/11/2013 17:10:03 medium.q@c MASTER        
+   4524173 0.50708 ci_12      alambrop     r     12/11/2013 17:11:18 medium.q@c MASTER        
+   4524256 0.50708 ci_15      alambrop     r     12/11/2013 17:18:33 medium.q@c MASTER        
+   4539632 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 medium.q@c MASTER        
+   4539633 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 medium.q@c MASTER        
+cl035                   lx24-amd64     16 16.28   62.9G  821.6M   32.0G     0.0
+   4505390 0.51664 SB4_contig blm708       r     12/09/2013 19:30:10 long.q@cl0 MASTER        
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+   4522342 0.51664 NB3_contig blm708       r     12/11/2013 14:09:19 long.q@cl0 MASTER        
+                                                                     long.q@cl0 SLAVE         
+   4522359 0.51664 NB1_total_ blm708       r     12/11/2013 14:10:33 long.q@cl0 MASTER        
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+   4522360 0.51664 SB4_contig blm708       r     12/11/2013 14:11:19 long.q@cl0 MASTER        
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+cl036                   lx24-amd64     16  0.04   62.9G  467.2M   32.0G     0.0
+   4522342 0.51664 NB3_contig blm708       r     12/11/2013 14:09:19 long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+   4522360 0.51664 SB4_contig blm708       r     12/11/2013 14:11:19 long.q@cl0 SLAVE         
+cl037                   lx24-amd64     16  0.02   62.9G  511.0M   32.0G  110.8M
+cl038                   lx24-amd64     16  8.09   62.9G   36.0G   32.0G     0.0
+   4524308 0.50708 ci_19      alambrop     r     12/11/2013 17:23:33 long.q@cl0 MASTER        
+   4539082 0.50708 ci_01_2    alambrop     r     12/12/2013 16:34:33 long.q@cl0 MASTER        
+   4539091 0.50708 ci_20_2    alambrop     r     12/12/2013 16:35:03 long.q@cl0 MASTER        
+   4539636 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 long.q@cl0 MASTER        
+   4539637 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 long.q@cl0 MASTER        
+cl039                   lx24-amd64      4  3.57   15.7G  385.4M   32.0G  208.0K
+   4539589 0.50110 minisat    sasghar      r     12/12/2013 17:21:33 short.q@cl MASTER        
+   4539598 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539599 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539661 0.51283 minisat    sasghar      r     12/12/2013 17:30:48 short.q@cl MASTER        
+cl040                   lx24-amd64      4  6.04   15.7G  461.4M   32.0G  208.0K
+   4539600 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539601 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539602 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539603 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+cl041                   lx24-amd64      4  3.36   15.7G   10.3G   32.0G  208.0K
+   4539604 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539605 0.50110 minisat    sasghar      r     12/12/2013 17:22:33 short.q@cl MASTER        
+   4539614 0.50110 minisat    sasghar      r     12/12/2013 17:23:33 short.q@cl MASTER        
+cl042                   lx24-amd64      4  6.12   15.7G  493.0M   32.0G  208.0K
+   4524182 0.50708 ci_13      alambrop     r     12/11/2013 17:12:48 medium.q@c MASTER        
+   4524199 0.50708 ci_14      alambrop     r     12/11/2013 17:14:03 medium.q@c MASTER        
+   4539634 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 medium.q@c MASTER        
+   4539635 0.50110 minisat    sasghar      r     12/12/2013 17:24:33 medium.q@c MASTER        
+cl043                   lx24-amd64      4  6.21   15.7G    8.7G   32.0G  208.0K
+   4524281 0.50708 ci_16      alambrop     r     12/11/2013 17:19:48 medium.q@c MASTER        
+   4524290 0.50708 ci_17      alambrop     r     12/11/2013 17:21:18 medium.q@c MASTER        
+   4524299 0.50708 ci_18      alambrop     r     12/11/2013 17:22:18 medium.q@c MASTER        
+cl044                   lx24-amd64      4  4.71   15.7G  457.1M   32.0G  208.0K
+   4502448 0.51664 NB1_total_ blm708       r     12/01/2013 22:47:34 long.q@cl0 MASTER        
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+                                                                     long.q@cl0 SLAVE         
+cl045                   lx24-amd64      4  0.00   15.7G    5.0G   32.0G  208.0K

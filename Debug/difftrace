@@ -1,0 +1,440 @@
+diff -bur /home/sasghar/benchmark/minisat/core/depend.mk /home/sasghar/test/minisat/core/depend.mk
+--- /home/sasghar/benchmark/minisat/core/depend.mk	2013-12-06 21:38:05.198267000 -0400
++++ /home/sasghar/test/minisat/core/depend.mk	2013-12-06 22:08:07.510723000 -0400
+@@ -1,36 +1,38 @@
+-/home/sasghar/benchmark/minisat/core/Main.o /home/sasghar/benchmark/minisat/core/Main.or /home/sasghar/benchmark/minisat/core/Main.od /home/sasghar/benchmark/minisat/core/Main.op: /home/sasghar/benchmark/minisat/core/Main.cc \
+-  /home/sasghar/benchmark/minisat/utils/System.h \
+-  /home/sasghar/benchmark/minisat/mtl/IntTypes.h \
+-  /home/sasghar/benchmark/minisat/utils/ParseUtils.h \
+-  /home/sasghar/benchmark/minisat/utils/Options.h \
+-  /home/sasghar/benchmark/minisat/mtl/Vec.h \
+-  /home/sasghar/benchmark/minisat/mtl/IntTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/XAlloc.h \
+-  /home/sasghar/benchmark/minisat/utils/ParseUtils.h \
+-  /home/sasghar/benchmark/minisat/core/Dimacs.h \
+-  /home/sasghar/benchmark/minisat/core/SolverTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/IntTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/Alg.h \
+-  /home/sasghar/benchmark/minisat/mtl/Vec.h \
+-  /home/sasghar/benchmark/minisat/mtl/Vec.h \
+-  /home/sasghar/benchmark/minisat/mtl/Map.h \
+-  /home/sasghar/benchmark/minisat/mtl/Alloc.h \
+-  /home/sasghar/benchmark/minisat/core/Solver.h \
+-  /home/sasghar/benchmark/minisat/mtl/Heap.h
+-/home/sasghar/benchmark/minisat/core/Solver.o /home/sasghar/benchmark/minisat/core/Solver.or /home/sasghar/benchmark/minisat/core/Solver.od /home/sasghar/benchmark/minisat/core/Solver.op: /home/sasghar/benchmark/minisat/core/Solver.cc \
+-  /home/sasghar/benchmark/minisat/mtl/Sort.h \
+-  /home/sasghar/benchmark/minisat/mtl/Vec.h \
+-  /home/sasghar/benchmark/minisat/mtl/IntTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/XAlloc.h \
+-  /home/sasghar/benchmark/minisat/core/Solver.h \
+-  /home/sasghar/benchmark/minisat/mtl/Vec.h \
+-  /home/sasghar/benchmark/minisat/mtl/Heap.h \
+-  /home/sasghar/benchmark/minisat/mtl/Alg.h \
+-  /home/sasghar/benchmark/minisat/utils/Options.h \
+-  /home/sasghar/benchmark/minisat/mtl/IntTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/Vec.h \
+-  /home/sasghar/benchmark/minisat/utils/ParseUtils.h \
+-  /home/sasghar/benchmark/minisat/core/SolverTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/IntTypes.h \
+-  /home/sasghar/benchmark/minisat/mtl/Map.h \
+-  /home/sasghar/benchmark/minisat/mtl/Alloc.h
++/home/sasghar/test/minisat/core/Main.o /home/sasghar/test/minisat/core/Main.or /home/sasghar/test/minisat/core/Main.od /home/sasghar/test/minisat/core/Main.op: /home/sasghar/test/minisat/core/Main.cc \
++  /home/sasghar/Zeromq/zmq/include/zhelpers.h \
++  /home/sasghar/Zeromq/zmq/include/zmq.h \
++  /home/sasghar/test/minisat/utils/System.h \
++  /home/sasghar/test/minisat/mtl/IntTypes.h \
++  /home/sasghar/test/minisat/utils/ParseUtils.h \
++  /home/sasghar/test/minisat/utils/Options.h \
++  /home/sasghar/test/minisat/mtl/Vec.h \
++  /home/sasghar/test/minisat/mtl/IntTypes.h \
++  /home/sasghar/test/minisat/mtl/XAlloc.h \
++  /home/sasghar/test/minisat/utils/ParseUtils.h \
++  /home/sasghar/test/minisat/core/Dimacs.h \
++  /home/sasghar/test/minisat/core/SolverTypes.h \
++  /home/sasghar/test/minisat/mtl/IntTypes.h \
++  /home/sasghar/test/minisat/mtl/Alg.h \
++  /home/sasghar/test/minisat/mtl/Vec.h \
++  /home/sasghar/test/minisat/mtl/Vec.h \
++  /home/sasghar/test/minisat/mtl/Map.h \
++  /home/sasghar/test/minisat/mtl/Alloc.h \
++  /home/sasghar/test/minisat/core/Solver.h \
++  /home/sasghar/test/minisat/mtl/Heap.h
++/home/sasghar/test/minisat/core/Solver.o /home/sasghar/test/minisat/core/Solver.or /home/sasghar/test/minisat/core/Solver.od /home/sasghar/test/minisat/core/Solver.op: /home/sasghar/test/minisat/core/Solver.cc \
++  /home/sasghar/test/minisat/mtl/Sort.h \
++  /home/sasghar/test/minisat/mtl/Vec.h \
++  /home/sasghar/test/minisat/mtl/IntTypes.h \
++  /home/sasghar/test/minisat/mtl/XAlloc.h \
++  /home/sasghar/test/minisat/core/Solver.h \
++  /home/sasghar/test/minisat/mtl/Vec.h \
++  /home/sasghar/test/minisat/mtl/Heap.h \
++  /home/sasghar/test/minisat/mtl/Alg.h \
++  /home/sasghar/test/minisat/utils/Options.h \
++  /home/sasghar/test/minisat/mtl/IntTypes.h \
++  /home/sasghar/test/minisat/mtl/Vec.h \
++  /home/sasghar/test/minisat/utils/ParseUtils.h \
++  /home/sasghar/test/minisat/core/SolverTypes.h \
++  /home/sasghar/test/minisat/mtl/IntTypes.h \
++  /home/sasghar/test/minisat/mtl/Map.h \
++  /home/sasghar/test/minisat/mtl/Alloc.h
+diff -bur /home/sasghar/benchmark/minisat/core/Main.cc /home/sasghar/test/minisat/core/Main.cc
+--- /home/sasghar/benchmark/minisat/core/Main.cc	2010-07-10 13:07:36.000000000 -0300
++++ /home/sasghar/test/minisat/core/Main.cc	2013-12-06 22:08:01.922900000 -0400
+@@ -23,6 +23,13 @@
+ #include <signal.h>
+ #include <zlib.h>
+ 
++#include "zhelpers.h"
++#include <sstream>
++#include <string>
++#include <iostream>
++#include <stdio.h>
++#include <unistd.h>
++
+ #include "utils/System.h"
+ #include "utils/ParseUtils.h"
+ #include "utils/Options.h"
+@@ -34,6 +41,12 @@
+ //=================================================================================================
+ 
+ 
++//=================================================================================================
++
++int sendData (Solver& S);
++int reciveData (Solver& S);
++
++
+ void printStats(Solver& solver)
+ {
+     double cpu_time = cpuTime();
+@@ -45,6 +58,7 @@
+     printf("conflict literals     : %-12"PRIu64"   (%4.2f %% deleted)\n", solver.tot_literals, (solver.max_literals - solver.tot_literals)*100 / (double)solver.max_literals);
+     if (mem_used != 0) printf("Memory used           : %.2f MB\n", mem_used);
+     printf("CPU time              : %g s\n", cpu_time);
++
+ }
+ 
+ 
+@@ -126,13 +140,30 @@
+         if (in == NULL)
+             printf("ERROR! Could not open file: %s\n", argc == 1 ? "<stdin>" : argv[1]), exit(1);
+         
+-        if (S.verbosity > 0){
++        
++
++if (S.verbosity > 0){
+             printf("============================[ Problem Statistics ]=============================\n");
+             printf("|                                                                             |\n"); }
+         
+         parse_DIMACS(in, S);
+         gzclose(in);
+-        FILE* res = (argc >= 3) ? fopen(argv[2], "wb") : NULL;
++if (argc >= 3)
++                       {
++                               for (int i=3; i<argc;i++)
++                               {
++                               	int liter = atoi(argv[i]);
++                               	int vari=abs(liter) -1;
++                                S.addClause((liter > 0) ? mkLit(vari) : ~mkLit(vari) );
++                               }
++
++                       }
++
++
++      //  FILE* res = (argc >= 3) ? fopen(argv[2], "wb") : NULL;
++        FILE* res =NULL;
++
++       // FILE* res = (argc >= 3) ? fopen(argv[2], "wb") : NULL;
+         
+         if (S.verbosity > 0){
+             printf("|  Number of variables:  %12d                                         |\n", S.nVars());
+@@ -156,15 +187,25 @@
+                 printStats(S);
+                 printf("\n"); }
+             printf("UNSATISFIABLE\n");
++
+             exit(20);
+         }
+-        
++       //reciveData(S);
+         vec<Lit> dummy;
+         lbool ret = S.solveLimited(dummy);
+         if (S.verbosity > 0){
+             printStats(S);
+-            printf("\n"); }
++             printf("\n");
++
++
++        }
+         printf(ret == l_True ? "SATISFIABLE\n" : ret == l_False ? "UNSATISFIABLE\n" : "INDETERMINATE\n");
++        if(ret==l_False)
++        {
++           //sendData (S);
++
++
++        }
+         if (res != NULL){
+             if (ret == l_True){
+                 fprintf(res, "SAT\n");
+@@ -190,3 +231,123 @@
+         exit(0);
+     }
+ }
++
++int sendData (Solver& S)
++{
++
++    void *context = zmq_ctx_new ();
++    void *requester = zmq_socket (context, ZMQ_REQ);
++    zmq_connect (requester, "tcp://clhead:5559");
++    s_send (requester, "LCS\0");
++    char* buffer= s_recv (requester);
++    /***********************************************/
++	for (int i=0; i < S.learnts.size(); i++)
++		{
++		     std::string clause;
++
++
++			  Clause& c = solver->ca[S.learnts[i]];
++			  if(c.size()<8)
++			   {
++				for (int j = 0; j < c.size(); j++)
++				{
++					 int t=var(c[j])+1;
++				 if (sign(c[j])) t = -t;
++					sprintf(buffer,"%d",t);
++					clause +=std::string (buffer) + " ";
++
++
++				}
++
++				clause+= std::string (buffer) +" 0";
++				clause+= '\0';
++		    //std::cout<<clause<<"\n";
++		    s_send (requester, (char *)clause.c_str());
++		    buffer=s_recv (requester);
++			//printf("0 \n");
++			  }
++		}
++	 zmq_close (requester);
++    zmq_ctx_destroy (context);
++    return 0;
++}
++
++int reciveData (Solver& S)
++{
++
++	void *context = zmq_ctx_new ();
++
++		//  First, connect our subscriber socket
++		void *subscriber = zmq_socket (context, ZMQ_SUB);
++		zmq_connect (subscriber, "tcp://clhead:5561");
++		zmq_setsockopt (subscriber, ZMQ_SUBSCRIBE, "", 0);
++
++		//  0MQ is so fast, we need to wait a whileÉ
++		//sleep (1);
++
++		//  Second, synchronize with publisher
++		void *syncclient = zmq_socket (context, ZMQ_REQ);
++		zmq_connect (syncclient, "tcp://clhead:5562");
++
++		//  - send a synchronization request
++		s_send (syncclient, "");
++
++		//  - wait for synchronization reply
++		char *Zstring = s_recv (syncclient);
++		free (Zstring);
++
++		//  Third, get our updates and report how many we got
++		int update_nbr = 0;
++
++
++
++	   vec<Lit> lits;
++	   while (1) {
++	    	// std::cout<<"hello1"<<"\n";
++	          char *buffer = s_recv (subscriber);
++		    	// std::cout<<"hello2"<<"\n";
++	          if (strcmp (buffer, "END") == 0) {
++	 	//    	 std::cout<<buffer<< "Total updates= "<<update_nbr<<"\n";
++	              free (buffer);
++	              break;
++	          }
++
++	    	// char* buffer = new char [1000];
++	    	 //s_send (requester, "ok");
++	    	 //buffer=s_recv (requester);
++	    	// std::cout<<"helloo"<<"\n";
++	    	 std::string tmp(buffer);
++	    	 std::istringstream iss(tmp);
++	    	 std::string token;
++	    	 int     parsed_lit, var;
++	    	 lits.clear();
++	    	 while(getline(iss, token, ' '))
++	    	 {
++	    		 if(token.substr(0,1)=="0")
++	    			 break;
++	    		  parsed_lit=atoi(token.c_str());
++	    		  var = abs(parsed_lit)-1;
++	    		  while (var >= S.nVars()) S.newVar();
++	    		  lits.push( (parsed_lit > 0) ? mkLit(var) : ~mkLit(var) );
++
++	    	 }
++	    	 CRef cr =S.ca.alloc(lits, true);
++	    	 S.learnts.push(cr);
++	    	 S.attachClause(cr);
++	    	 S.claBumpActivity(S.ca[cr]);
++	    	// S.uncheckedEnqueue(lits[0], cr);
++
++	    	   delete buffer;
++	    	   buffer=NULL;
++	    	   update_nbr++;
++
++	    		}
++	   printf ("Received %d updates\n", update_nbr);
++	   zmq_close (subscriber);
++	   zmq_close (syncclient);
++	   zmq_ctx_destroy (context);
++
++	  // std::cout<<"*********************finished receiving**********************"<<"\n";
++
++	  	return 0;
++}
+Binary files /home/sasghar/benchmark/minisat/core/Main.o and /home/sasghar/test/minisat/core/Main.o differ
+Binary files /home/sasghar/benchmark/minisat/core/minisat and /home/sasghar/test/minisat/core/minisat differ
+Only in /home/sasghar/test/minisat/core/: minisat2.sh
+diff -bur /home/sasghar/benchmark/minisat/core/Solver.cc /home/sasghar/test/minisat/core/Solver.cc
+--- /home/sasghar/benchmark/minisat/core/Solver.cc	2010-07-10 13:07:36.000000000 -0300
++++ /home/sasghar/test/minisat/core/Solver.cc	2013-12-03 15:35:54.151377000 -0400
+@@ -19,7 +19,7 @@
+ **************************************************************************************************/
+ 
+ #include <math.h>
+-
++#include <stdlib.h>
+ #include "mtl/Sort.h"
+ #include "core/Solver.h"
+ 
+@@ -137,13 +137,15 @@
+     // Check if clause is satisfied and remove false/duplicate literals:
+     sort(ps);
+     Lit p; int i, j;
+-    for (i = j = 0, p = lit_Undef; i < ps.size(); i++)
++    for (i = j = 0,p = lit_Undef; i < ps.size(); i++)
++	{
++	p = lit_Undef;
+         if (value(ps[i]) == l_True || ps[i] == ~p)
+             return true;
+         else if (value(ps[i]) != l_False && ps[i] != p)
+             ps[j++] = p = ps[i];
+     ps.shrink(i - j);
+-
++	}
+     if (ps.size() == 0)
+         return ok = false;
+     else if (ps.size() == 1){
+@@ -428,10 +430,15 @@
+ 
+ void Solver::uncheckedEnqueue(Lit p, CRef from)
+ {
+-    assert(value(p) == l_Undef);
++
++   // assert(value(p) == l_Undef);
++	if (value(p) != l_Undef)
++	     	return;
++	else{
+     assigns[var(p)] = lbool(!sign(p));
+     vardata[var(p)] = mkVarData(from, decisionLevel());
+     trail.push_(p);
++	    }
+ }
+ 
+ 
+@@ -753,8 +760,13 @@
+     model.clear();
+     conflict.clear();
+     if (!ok) return l_False;
+-
+-    solves++;
++    /*for(int i=0;i<Gpath.size();i++)    		{
++    			int lit = Gpath[i];
++    			// adapt the literal read for the Minisat coding
++    			int var = abs(lit)-1;
++    			assumptions.push((lit > 0) ? mkLit(var) : ~mkLit(var));
++    		}
++   */ solves++;
+ 
+     max_learnts               = nClauses() * learntsize_factor;
+     learntsize_adjust_confl   = learntsize_adjust_start_confl;
+@@ -762,6 +774,9 @@
+     lbool   status            = l_Undef;
+ 
+     if (verbosity >= 1){
++	printf("============================[hostname= ]==============================\n");    
++	system("hostname");
++	
+         printf("============================[ Search Statistics ]==============================\n");
+         printf("| Conflicts |          ORIGINAL         |          LEARNT          | Progress |\n");
+         printf("|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |\n");
+diff -bur /home/sasghar/benchmark/minisat/core/Solver.h /home/sasghar/test/minisat/core/Solver.h
+--- /home/sasghar/benchmark/minisat/core/Solver.h	2010-07-10 13:07:36.000000000 -0300
++++ /home/sasghar/test/minisat/core/Solver.h	2013-11-26 13:10:15.899394000 -0400
+@@ -43,7 +43,13 @@
+ 
+     // Problem specification:
+     //
++
+     Var     newVar    (bool polarity = true, bool dvar = true); // Add a new variable with parameters specifying variable mode.
++    vec<CRef>           learnts;          // List of learnt clauses.
++    ClauseAllocator     ca;
++    void     attachClause     (CRef cr);
++    void     claBumpActivity  (Clause& c);             // Increase a clause with the current 'bump' value.
++    void     uncheckedEnqueue (Lit p, CRef from = CRef_Undef);                         // Enqueue a literal. Assumes value of literal is undefined.
+ 
+     bool    addClause (const vec<Lit>& ps);                     // Add a clause to the solver. 
+     bool    addEmptyClause();                                   // Add the empty clause, making the solver contradictory.
+@@ -170,7 +176,7 @@
+     //
+     bool                ok;               // If FALSE, the constraints are already unsatisfiable. No part of the solver state may be used!
+     vec<CRef>           clauses;          // List of problem clauses.
+-    vec<CRef>           learnts;          // List of learnt clauses.
++    //vec<CRef>           learnts;          // List of learnt clauses.
+     double              cla_inc;          // Amount to bump next clause with.
+     vec<double>         activity;         // A heuristic measurement of the activity of a variable.
+     double              var_inc;          // Amount to bump next variable with.
+@@ -190,7 +196,7 @@
+     double              progress_estimate;// Set by 'search()'.
+     bool                remove_satisfied; // Indicates whether possibly inefficient linear scan for satisfied clauses should be performed in 'simplify'.
+ 
+-    ClauseAllocator     ca;
++   // ClauseAllocator     ca;
+ 
+     // Temporaries (to reduce allocation overhead). Each variable is prefixed by the method in which it is
+     // used, exept 'seen' wich is used in several places.
+@@ -215,7 +221,7 @@
+     void     insertVarOrder   (Var x);                                                 // Insert a variable in the decision order priority queue.
+     Lit      pickBranchLit    ();                                                      // Return the next decision variable.
+     void     newDecisionLevel ();                                                      // Begins a new decision level.
+-    void     uncheckedEnqueue (Lit p, CRef from = CRef_Undef);                         // Enqueue a literal. Assumes value of literal is undefined.
++  //  void     uncheckedEnqueue (Lit p, CRef from = CRef_Undef);                         // Enqueue a literal. Assumes value of literal is undefined.
+     bool     enqueue          (Lit p, CRef from = CRef_Undef);                         // Test if fact 'p' contradicts current state, enqueue otherwise.
+     CRef     propagate        ();                                                      // Perform unit propagation. Returns possibly conflicting clause.
+     void     cancelUntil      (int level);                                             // Backtrack until a certain level.
+@@ -234,11 +240,11 @@
+     void     varBumpActivity  (Var v, double inc);     // Increase a variable with the current 'bump' value.
+     void     varBumpActivity  (Var v);                 // Increase a variable with the current 'bump' value.
+     void     claDecayActivity ();                      // Decay all clauses with the specified factor. Implemented by increasing the 'bump' value instead.
+-    void     claBumpActivity  (Clause& c);             // Increase a clause with the current 'bump' value.
++   // void     claBumpActivity  (Clause& c);             // Increase a clause with the current 'bump' value.
+ 
+     // Operations on clauses:
+     //
+-    void     attachClause     (CRef cr);               // Attach a clause to watcher lists.
++  //  void     attachClause     (CRef cr);               // Attach a clause to watcher lists.
+     void     detachClause     (CRef cr, bool strict = false); // Detach a clause to watcher lists.
+     void     removeClause     (CRef cr);               // Detach and free a clause.
+     bool     locked           (const Clause& c) const; // Returns TRUE if a clause is a reason for some implication in the current state.
+Binary files /home/sasghar/benchmark/minisat/core/Solver.o and /home/sasghar/test/minisat/core/Solver.o differ
+Only in /home/sasghar/test/minisat/core/: test
+Only in /home/sasghar/test/minisat/core/: testout
+Only in /home/sasghar/test/minisat/core/: test.sh
+Only in /home/sasghar/test/minisat/core/: tt

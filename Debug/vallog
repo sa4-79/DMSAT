@@ -1,0 +1,1918 @@
+==27690== Memcheck, a memory error detector.
+==27690== Copyright (C) 2002-2005, and GNU GPL'd, by Julian Seward et al.
+==27690== Using LibVEX rev 1575, a library for dynamic binary translation.
+==27690== Copyright (C) 2004-2005, and GNU GPL'd, by OpenWorks LLP.
+==27690== Using valgrind-3.1.1, a dynamic binary instrumentation framework.
+==27690== Copyright (C) 2000-2005, and GNU GPL'd, by Julian Seward et al.
+==27690== For more details, rerun with: -v
+==27690== 
+==27690== Syscall param socketcall.sendto(msg) points to uninitialised byte(s)
+==27690==    at 0x3A2B6CADB4: send (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F8C8C: get_mapping (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F91D6: __nscd_get_map_ref (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F6E94: nscd_getpw_r (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F7255: __nscd_getpwuid_r (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B68F94A: getpwuid_r@@GLIBC_2.2.5 (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4CADC39: sge_uid2user (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE011: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==  Address 0x7FEFFF473 is on thread 1's stack
+==27690== 
+==27690== Syscall param socketcall.sendto(msg) points to uninitialised byte(s)
+==27690==    at 0x3A2B6CADB4: send (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F8C8C: get_mapping (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F91D6: __nscd_get_map_ref (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F7371: nscd_getgr_r (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F7925: __nscd_getgrgid_r (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B68E42A: getgrgid_r@@GLIBC_2.2.5 (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4CAE815: sge_getgrgid_r (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CADE19: sge_gid2group (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE0A6: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==  Address 0x7FEFFF422 is on thread 1's stack
+==27690== 
+==27690== Syscall param socketcall.sendto(msg) points to uninitialised byte(s)
+==27690==    at 0x3A2B6CADB4: send (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F8C8C: get_mapping (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F91D6: __nscd_get_map_ref (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F7A1E: nscd_gethst_r (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6F828A: __nscd_gethostbyname_r (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6DE22F: gethostbyname_r@@GLIBC_2.2.5 (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4C9EA36: sge_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CA8452: sge_prog_state_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CA8254: sge_prog_state_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBC84: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==  Address 0x7FEFFCA32 is on thread 1's stack
+Error deleting file
+==27690== 
+==27690== Thread 10:
+==27690== Mismatched free() / delete / delete []
+==27690==    at 0x49057F6: operator delete(void*) (vg_replace_malloc.c:246)
+==27690==    by 0x405036: communicator(void*) (Controller.cpp:415)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690==  Address 0x8D415F8 is 0 bytes inside a block of size 25 alloc'd
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x3A2B671021: strdup (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x404F57: communicator(void*) (zhelpers.h:51)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Broadcasting messages finshed 
+==27690== 
+==27690== Thread 1:
+==27690== Invalid free() / delete / delete[]
+==27690==    at 0x490555D: free (vg_replace_malloc.c:235)
+==27690==    by 0x3A2B6FF2FF: free_mem (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x3A2B6FED81: __libc_freeres (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4801676: _vgw_freeres (vg_preloaded.c:62)
+==27690==  Address 0x4E1F378 is not stack'd, malloc'd or (recently) free'd
+==27690== 
+==27690== FILE DESCRIPTORS: 30 open at exit.
+==27690== Open AF_INET socket 28: 10.40.20.235:5560 <-> 10.40.20.235:42867
+==27690==    at 0x3A2C10B73F: (within /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x4A94FB1: zmq::tcp_listener_t::accept() (tcp_listener.cpp:258)
+==27690==    by 0x4A95179: zmq::tcp_listener_t::in_event() (tcp_listener.cpp:81)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_INET socket 4: 10.40.20.235:42867 <-> 10.40.20.235:5560
+==27690==    at 0x3A2B6CAFE9: socket (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6CF8A: zmq::open_socket(int, int, int) (ip.cpp:47)
+==27690==    by 0x4A93437: zmq::tcp_connecter_t::open() (tcp_connecter.cpp:210)
+==27690==    by 0x4A93735: zmq::tcp_connecter_t::start_connecting() (tcp_connecter.cpp:151)
+==27690==    by 0x4A769D2: zmq::object_t::process_command(zmq::command_t&) (object.cpp:79)
+==27690==    by 0x4A6CDDB: zmq::io_thread_t::in_event() (io_thread.cpp:73)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_INET socket 29: <unbound> <-> unbound
+==27690==    at 0x3A2B6CAFE9: socket (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6CF8A: zmq::open_socket(int, int, int) (ip.cpp:47)
+==27690==    by 0x4A946A1: zmq::tcp_listener_t::set_address(char const*) (tcp_listener.cpp:155)
+==27690==    by 0x4A89578: zmq::socket_base_t::bind(char const*) (basic_string.h:1465)
+==27690==    by 0x4047A2: Broker(void*) (Controller.cpp:429)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 27: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A86B0D: zmq::socket_base_t::socket_base_t(zmq::ctx_t*, unsigned, int) (socket_base.cpp:137)
+==27690==    by 0x4A9932B: zmq::router_t::router_t(zmq::ctx_t*, unsigned, int) (router.cpp:39)
+==27690==    by 0x4A804E8: zmq::rep_t::rep_t(zmq::ctx_t*, unsigned, int) (rep.cpp:28)
+==27690==    by 0x4A84146: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:96)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 26: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A86B0D: zmq::socket_base_t::socket_base_t(zmq::ctx_t*, unsigned, int) (socket_base.cpp:137)
+==27690==    by 0x4A9932B: zmq::router_t::router_t(zmq::ctx_t*, unsigned, int) (router.cpp:39)
+==27690==    by 0x4A804E8: zmq::rep_t::rep_t(zmq::ctx_t*, unsigned, int) (rep.cpp:28)
+==27690==    by 0x4A84146: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:96)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open file descriptor 25:
+==27690==    at 0x3A2B6CA5D9: epoll_create (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6BA0D: zmq::epoll_t::epoll_t() (epoll.cpp:38)
+==27690==    by 0x4A6CB29: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:30)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 24: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A6CA84: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:29)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 23: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A6CA84: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:29)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_INET socket 22: <unbound> <-> unbound
+==27690==    at 0x3A2B6CAFE9: socket (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6CF8A: zmq::open_socket(int, int, int) (ip.cpp:47)
+==27690==    by 0x4A946A1: zmq::tcp_listener_t::set_address(char const*) (tcp_listener.cpp:155)
+==27690==    by 0x4A89578: zmq::socket_base_t::bind(char const*) (basic_string.h:1465)
+==27690==    by 0x404790: Broker(void*) (Controller.cpp:428)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open file descriptor 21:
+==27690==    at 0x3A2B6CA5D9: epoll_create (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6BA0D: zmq::epoll_t::epoll_t() (epoll.cpp:38)
+==27690==    by 0x4A7FDAF: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:29)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 20: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A7FCF3: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:28)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 19: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A7FCF3: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:28)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 18: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A64F80: zmq::ctx_t::ctx_t() (ctx.cpp:51)
+==27690==    by 0x4A9E81E: zmq_ctx_new (zmq.cpp:159)
+==27690==    by 0x404EFB: communicator(void*) (Controller.cpp:360)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 17: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A64F80: zmq::ctx_t::ctx_t() (ctx.cpp:51)
+==27690==    by 0x4A9E81E: zmq_ctx_new (zmq.cpp:159)
+==27690==    by 0x404EFB: communicator(void*) (Controller.cpp:360)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 16: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A86B0D: zmq::socket_base_t::socket_base_t(zmq::ctx_t*, unsigned, int) (socket_base.cpp:137)
+==27690==    by 0x4A9B001: zmq::dealer_t::dealer_t(zmq::ctx_t*, unsigned, int) (dealer.cpp:27)
+==27690==    by 0x4A84178: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:99)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404780: Broker(void*) (Controller.cpp:427)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 15: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A86B0D: zmq::socket_base_t::socket_base_t(zmq::ctx_t*, unsigned, int) (socket_base.cpp:137)
+==27690==    by 0x4A9B001: zmq::dealer_t::dealer_t(zmq::ctx_t*, unsigned, int) (dealer.cpp:27)
+==27690==    by 0x4A84178: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:99)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404780: Broker(void*) (Controller.cpp:427)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 14: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A86B0D: zmq::socket_base_t::socket_base_t(zmq::ctx_t*, unsigned, int) (socket_base.cpp:137)
+==27690==    by 0x4A9917B: zmq::router_t::router_t(zmq::ctx_t*, unsigned, int) (router.cpp:39)
+==27690==    by 0x4A841AA: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:102)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 13: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A86B0D: zmq::socket_base_t::socket_base_t(zmq::ctx_t*, unsigned, int) (socket_base.cpp:137)
+==27690==    by 0x4A9917B: zmq::router_t::router_t(zmq::ctx_t*, unsigned, int) (router.cpp:39)
+==27690==    by 0x4A841AA: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:102)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open file descriptor 12:
+==27690==    at 0x3A2B6CA5D9: epoll_create (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6BA0D: zmq::epoll_t::epoll_t() (epoll.cpp:38)
+==27690==    by 0x4A6CB29: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:30)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 11: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A6CA84: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:29)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 10: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A6CA84: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:29)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open file descriptor 9:
+==27690==    at 0x3A2B6CA5D9: epoll_create (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A6BA0D: zmq::epoll_t::epoll_t() (epoll.cpp:38)
+==27690==    by 0x4A7FDAF: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:29)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 8: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A7FCF3: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:28)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 7: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A7FCF3: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:28)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 6: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A64F80: zmq::ctx_t::ctx_t() (ctx.cpp:51)
+==27690==    by 0x4A9E81E: zmq_ctx_new (zmq.cpp:159)
+==27690==    by 0x404760: Broker(void*) (Controller.cpp:425)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_UNIX socket 5: <unknown>
+==27690==    at 0x3A2B6CB01C: socketpair (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4A83D5E: zmq::signaler_t::make_fdpair(int*, int*) (signaler.cpp:499)
+==27690==    by 0x4A83ECC: zmq::signaler_t::signaler_t() (signaler.cpp:83)
+==27690==    by 0x4A709FE: zmq::mailbox_t::mailbox_t() (mailbox.cpp:24)
+==27690==    by 0x4A64F80: zmq::ctx_t::ctx_t() (ctx.cpp:51)
+==27690==    by 0x4A9E81E: zmq_ctx_new (zmq.cpp:159)
+==27690==    by 0x404760: Broker(void*) (Controller.cpp:425)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open AF_INET socket 3: 10.40.20.235:42862 <-> 10.40.20.244:6444
+==27690==    at 0x3A2B6CAFE9: socket (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4C694D1: cl_com_tcp_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C76CF0: cl_com_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F40A: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== Open file descriptor 2: /home/sasghar/minisat/Debug/vallog
+==27690==    <inherited from parent>
+==27690== 
+==27690== Open file descriptor 1: /home/sasghar/minisat/Debug/vallog
+==27690==    <inherited from parent>
+==27690== 
+==27690== Open file descriptor 0: /dev/pts/17
+==27690==    <inherited from parent>
+==27690== 
+==27690== 
+==27690== ERROR SUMMARY: 84 errors from 5 contexts (suppressed: 5 from 2)
+==27690== malloc/free: in use at exit: 1,028,948 bytes in 1,474 blocks.
+==27690== malloc/free: 11,320 allocs, 9,847 frees, 38,498,302 bytes allocated.
+==27690== For counts of detected errors, rerun with: -v
+==27690== searching for pointers to 1,474 not-freed blocks.
+==27690== checked 146,863,160 bytes.
+==27690== 
+==27690== 
+==27690== 0 bytes in 2 blocks are still reachable in loss record 1 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A72A4F: zmq::mechanism_t::mechanism_t(zmq::options_t const&) (new_allocator.h:81)
+==27690==    by 0x4A765E8: zmq::null_mechanism_t::null_mechanism_t(zmq::session_base_t*, std::string const&, zmq::options_t const&) (null_mechanism.cpp:46)
+==27690==    by 0x4A8E038: zmq::stream_engine_t::handshake() (stream_engine.cpp:524)
+==27690==    by 0x4A8E38E: zmq::stream_engine_t::in_event() (stream_engine.cpp:201)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 0 bytes in 2 blocks are still reachable in loss record 2 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A8FA6B: zmq::stream_engine_t::stream_engine_t(int, zmq::options_t const&, std::string const&) (new_allocator.h:81)
+==27690==    by 0x4A951DE: zmq::tcp_listener_t::in_event() (tcp_listener.cpp:95)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 0 bytes in 4 blocks are still reachable in loss record 3 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A79BC5: zmq::own_t::own_t(zmq::io_thread_t*, zmq::options_t const&) (new_allocator.h:81)
+==27690==    by 0x4A94DEF: zmq::tcp_listener_t::tcp_listener_t(zmq::io_thread_t*, zmq::socket_base_t*, zmq::options_t const&) (tcp_listener.cpp:57)
+==27690==    by 0x4A8955F: zmq::socket_base_t::bind(char const*) (socket_base.cpp:367)
+==27690==    by 0x404790: Broker(void*) (Controller.cpp:428)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 8 bytes in 2 blocks are definitely lost in loss record 4 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x3A2B671021: strdup (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x404F57: communicator(void*) (zhelpers.h:51)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 8 bytes in 1 blocks are still reachable in loss record 5 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C75FCD: cl_com_create_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C69601: cl_com_tcp_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88224: cl_com_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F327: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 8 bytes in 1 blocks are still reachable in loss record 6 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C81629: cl_connection_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C86A51: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 12 bytes in 3 blocks are still reachable in loss record 7 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C7858B: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 12 bytes in 3 blocks are still reachable in loss record 8 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9ED7D: sge_copy_hostent (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9EB5A: sge_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C7D358: cl_com_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C78476: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 14 bytes in 2 blocks are still reachable in loss record 9 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9ED2C: sge_copy_hostent (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9EB5A: sge_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C7D358: cl_com_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C78476: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 16 bytes in 2 blocks are still reachable in loss record 10 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A6BEC3: std::vector<zmq::epoll_t::poll_entry_t*, std::allocator<zmq::epoll_t::poll_entry_t*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<zmq::epoll_t::poll_entry_t**, std::vector<zmq::epoll_t::poll_entry_t*, std::allocator<zmq::epoll_t::poll_entry_t*> > >, zmq::epoll_t::poll_entry_t* const&) (new_allocator.h:81)
+==27690==    by 0x4A6BD60: zmq::epoll_t::rm_fd(void*) (stl_vector.h:330)
+==27690==    by 0x4A938C5: zmq::tcp_connecter_t::out_event() (tcp_connecter.cpp:114)
+==27690==    by 0x4A6BC5F: zmq::epoll_t::loop() (epoll.cpp:156)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16 bytes in 2 blocks are still reachable in loss record 11 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A6A733: std::vector<zmq::io_thread_t*, std::allocator<zmq::io_thread_t*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<zmq::io_thread_t**, std::vector<zmq::io_thread_t*, std::allocator<zmq::io_thread_t*> > >, zmq::io_thread_t* const&) (new_allocator.h:81)
+==27690==    by 0x4A68C93: zmq::ctx_t::create_socket(int) (stl_vector.h:330)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16 bytes in 1 blocks are still reachable in loss record 12 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C8170C: cl_connection_list_append_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F567: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16 bytes in 1 blocks are still reachable in loss record 13 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C84854: cl_handle_list_append_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C86B86: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 16 bytes in 2 blocks are still reachable in loss record 14 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4BFB466: sge_gdi_set_thread_local_ctx (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE167: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 24 bytes in 1 blocks are still reachable in loss record 15 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A87B7C: zmq::socket_base_t::connect(char const*) (socket_base.cpp:526)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 24 bytes in 2 blocks are still reachable in loss record 16 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A6A993: std::vector<zmq::socket_base_t*, std::allocator<zmq::socket_base_t*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<zmq::socket_base_t**, std::vector<zmq::socket_base_t*, std::allocator<zmq::socket_base_t*> > >, zmq::socket_base_t* const&) (new_allocator.h:81)
+==27690==    by 0x4A6891E: zmq::ctx_t::create_socket(int) (stl_vector.h:330)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 24 bytes in 1 blocks are still reachable in loss record 17 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x404698: sartMain(int, char**) (Controller.cpp:141)
+==27690==    by 0x406CD8: main (Controller.cpp:34)
+==27690== 
+==27690== 
+==27690== 24 bytes in 1 blocks are still reachable in loss record 18 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C756D0: cl_com_create_debug_client_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8642B: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 24 bytes in 3 blocks are still reachable in loss record 19 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C7D337: cl_com_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C78476: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 24 bytes in 1 blocks are still reachable in loss record 20 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C83EB2: cl_endpoint_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C859D4: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 24 bytes in 1 blocks are still reachable in loss record 21 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C6B7EC: cl_com_ssl_framework_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C858DD: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 24 bytes in 1 blocks are still reachable in loss record 22 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C958FC: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 30 bytes in 1 blocks are possibly lost in loss record 23 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A733FD: std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> >::_Rep::_S_create(unsigned long, unsigned long, std::allocator<unsigned char> const&) (new_allocator.h:81)
+==27690==    by 0x4A7361A: unsigned char* std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> >::_S_construct<unsigned char const*>(unsigned char const*, unsigned char const*, std::allocator<unsigned char> const&, std::forward_iterator_tag) (basic_string.tcc:150)
+==27690==    by 0x4A736AA: std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> >::basic_string(unsigned char const*, unsigned long, std::allocator<unsigned char> const&) (basic_string.h:1395)
+==27690==    by 0x4A9A3CA: zmq::router_t::identify_peer(zmq::pipe_t*) (new_allocator.h:62)
+==27690==    by 0x4A9A78B: zmq::router_t::xread_activated(zmq::pipe_t*) (router.cpp:144)
+==27690==    by 0x4A8449B: zmq::socket_base_t::process_commands(int, bool) (socket_base.cpp:902)
+==27690==    by 0x4A84BD7: zmq::socket_base_t::recv(zmq::msg_t*, int) (socket_base.cpp:804)
+==27690==    by 0x4A9EE68: s_recvmsg(zmq::socket_base_t*, zmq_msg_t*, int) (zmq.cpp:460)
+==27690==    by 0x4A9EF93: zmq_recv (zmq.cpp:484)
+==27690==    by 0x404F33: communicator(void*) (zhelpers.h:46)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 32 bytes in 1 blocks are still reachable in loss record 24 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C6962B: cl_com_tcp_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88224: cl_com_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F327: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 32 bytes in 4 blocks are still reachable in loss record 25 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C96DD6: cl_thread_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C975C8: cl_thread_list_create_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C85B65: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 32 bytes in 2 blocks are still reachable in loss record 26 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9B46C: sge_bootstrap_state_set_thread_local (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB418: sge_gdi_set_thread_local_ctx (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE167: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 32 bytes in 2 blocks are still reachable in loss record 27 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C52C83: feature_get_master_featureset_list (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52E30: feature_activate (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DA5: feature_initialize_from_string (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBD13: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 40 bytes in 1 blocks are still reachable in loss record 28 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A87BC7: zmq::socket_base_t::connect(char const*) (socket_base.cpp:531)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 40 bytes in 1 blocks are still reachable in loss record 29 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C8424F: cl_endpoint_list_define_endpoint (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88A45: cl_com_append_known_endpoint (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C889DB: cl_com_append_known_endpoint_from_name (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01396: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 40 bytes in 1 blocks are still reachable in loss record 30 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C86748: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 40 bytes in 1 blocks are still reachable in loss record 31 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C86731: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 40 bytes in 3 blocks are still reachable in loss record 32 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9ECAF: sge_copy_hostent (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9EB5A: sge_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C7D358: cl_com_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C78476: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 48 bytes in 1 blocks are still reachable in loss record 33 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C75FE2: cl_com_create_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C69601: cl_com_tcp_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88224: cl_com_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F327: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 48 bytes in 3 blocks are still reachable in loss record 34 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C83620: cl_host_list_append_host (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C784D9: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 48 bytes in 3 blocks are still reachable in loss record 35 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9EC47: sge_copy_hostent (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9EB5A: sge_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C7D358: cl_com_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C78476: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 56 bytes in 1 blocks are still reachable in loss record 36 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A9AC57: std::_Rb_tree<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> >, std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t>, std::_Select1st<std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t> >, std::less<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > >, std::allocator<std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t> > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t> const&) (new_allocator.h:81)
+==27690==    by 0x4A9AE31: std::_Rb_tree<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> >, std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t>, std::_Select1st<std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t> >, std::less<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > >, std::allocator<std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t> > >::insert_unique(std::pair<std::basic_string<unsigned char, std::char_traits<unsigned char>, std::allocator<unsigned char> > const, zmq::router_t::outpipe_t> const&) (stl_pair.h:85)
+==27690==    by 0x4A9A1BE: zmq::router_t::identify_peer(zmq::pipe_t*) (stl_map.h:360)
+==27690==    by 0x4A9A78B: zmq::router_t::xread_activated(zmq::pipe_t*) (router.cpp:144)
+==27690==    by 0x4A8449B: zmq::socket_base_t::process_commands(int, bool) (socket_base.cpp:902)
+==27690==    by 0x4A84BD7: zmq::socket_base_t::recv(zmq::msg_t*, int) (socket_base.cpp:804)
+==27690==    by 0x4A9EE68: s_recvmsg(zmq::socket_base_t*, zmq_msg_t*, int) (zmq.cpp:460)
+==27690==    by 0x4A9EF93: zmq_recv (zmq.cpp:484)
+==27690==    by 0x404F33: communicator(void*) (zhelpers.h:46)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 64 bytes in 7 blocks are still reachable in loss record 37 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A6B4B3: std::vector<zmq::pipe_t*, std::allocator<zmq::pipe_t*> >::_M_insert_aux(__gnu_cxx::__normal_iterator<zmq::pipe_t**, std::vector<zmq::pipe_t*, std::allocator<zmq::pipe_t*> > >, zmq::pipe_t* const&) (new_allocator.h:81)
+==27690==    by 0x4A6C57C: zmq::fq_t::attach(zmq::pipe_t*) (stl_vector.h:330)
+==27690==    by 0x4A9A7B6: zmq::router_t::xread_activated(zmq::pipe_t*) (router.cpp:147)
+==27690==    by 0x4A8449B: zmq::socket_base_t::process_commands(int, bool) (socket_base.cpp:902)
+==27690==    by 0x4A85114: zmq::socket_base_t::getsockopt(int, void*, unsigned long*) (socket_base.cpp:292)
+==27690==    by 0x4A9FA95: zmq_poll (zmq.cpp:755)
+==27690==    by 0x4047E3: Broker(void*) (Controller.cpp:439)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 64 bytes in 4 blocks are still reachable in loss record 38 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C97637: cl_thread_list_create_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C85B65: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 72 bytes in 3 blocks are still reachable in loss record 39 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C951F5: cl_parameter_list_append_parameter (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C852CB: cl_com_set_parameter_list_value (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C7A5A1: cl_com_connection_complete_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9264C: cl_com_handle_read_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 72 bytes in 1 blocks are still reachable in loss record 40 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C829EA: cl_host_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8598B: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 72 bytes in 1 blocks are still reachable in loss record 41 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C958E5: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 80 bytes in 2 blocks are still reachable in loss record 42 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x3A2E1902DD: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.3)
+==27690==    by 0x3A2E19269A: (within /usr/lib64/libstdc++.so.6.0.3)
+==27690==    by 0x3A2E1927B2: std::string::string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.3)
+==27690==    by 0x404FCC: communicator(void*) (new_allocator.h:62)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 88 bytes in 1 blocks are still reachable in loss record 43 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4BFB093: gdi_state_get_last_gdi_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01C4A: gdi2_receive_multi_async (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFFE7: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 96 bytes in 3 blocks are still reachable in loss record 44 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9EBAF: sge_copy_hostent (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9EB5A: sge_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C7D358: cl_com_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C78476: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 104 bytes in 1 blocks are still reachable in loss record 45 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C866F0: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 112 bytes in 1 blocks are still reachable in loss record 46 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x40BE0E: Minisat::vec<Minisat::Option*>::capacity(int) (Vec.h:99)
+==27690==    by 0x4125AC: _GLOBAL__I__ZN7Minisat6SolverC2Ev (Vec.h:74)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 144 bytes in 6 blocks are still reachable in loss record 47 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C81514: cl_com_create_endpoint (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C86858: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 144 bytes in 3 blocks are still reachable in loss record 48 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C542FE: lCreateListHash (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5426D: lCreateList (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5DA21: lAddElemUlong (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DEC: feature_initialize (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52F83: feature_activate (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DA5: feature_initialize_from_string (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBD13: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 160 bytes in 4 blocks are still reachable in loss record 49 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A79FD2: std::_Rb_tree<zmq::own_t*, zmq::own_t*, std::_Identity<zmq::own_t*>, std::less<zmq::own_t*>, std::allocator<zmq::own_t*> >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, zmq::own_t* const&) (new_allocator.h:81)
+==27690==    by 0x4A7A0A5: std::_Rb_tree<zmq::own_t*, zmq::own_t*, std::_Identity<zmq::own_t*>, std::less<zmq::own_t*>, std::allocator<zmq::own_t*> >::insert_unique(zmq::own_t* const&) (stl_pair.h:85)
+==27690==    by 0x4A79F25: zmq::own_t::process_own(zmq::own_t*) (stl_set.h:314)
+==27690==    by 0x4A769C5: zmq::object_t::process_command(zmq::command_t&) (object.cpp:84)
+==27690==    by 0x4A8449B: zmq::socket_base_t::process_commands(int, bool) (socket_base.cpp:902)
+==27690==    by 0x4A84BD7: zmq::socket_base_t::recv(zmq::msg_t*, int) (socket_base.cpp:804)
+==27690==    by 0x4A9EE68: s_recvmsg(zmq::socket_base_t*, zmq_msg_t*, int) (zmq.cpp:460)
+==27690==    by 0x4A9EF93: zmq_recv (zmq.cpp:484)
+==27690==    by 0x404F33: communicator(void*) (zhelpers.h:46)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 168 bytes in 3 blocks are still reachable in loss record 50 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A8A937: std::_Rb_tree<std::string, std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> >, std::_Select1st<std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> > > >::_M_insert(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> > const&) (new_allocator.h:81)
+==27690==    by 0x4A8AAE4: std::_Rb_tree<std::string, std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> >, std::_Select1st<std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> > >, std::less<std::string>, std::allocator<std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> > > >::insert_equal(std::pair<std::string const, std::pair<zmq::own_t*, zmq::pipe_t*> > const&) (stl_tree.h:858)
+==27690==    by 0x4A8756D: zmq::socket_base_t::add_endpoint(char const*, zmq::own_t*, zmq::pipe_t*) (stl_multimap.h:348)
+==27690==    by 0x4A89B7C: zmq::socket_base_t::bind(char const*) (socket_base.cpp:379)
+==27690==    by 0x404790: Broker(void*) (Controller.cpp:428)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 168 bytes in 3 blocks are still reachable in loss record 51 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C78421: cl_com_cached_gethostbyname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C93729: getuniquehostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE7EF: reresolve_qualified_hostname (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC64C: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 176 bytes in 2 blocks are still reachable in loss record 52 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A8DAA7: zmq::stream_engine_t::handshake() (stream_engine.cpp:516)
+==27690==    by 0x4A8E38E: zmq::stream_engine_t::in_event() (stream_engine.cpp:201)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 192 bytes in 2 blocks are still reachable in loss record 53 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A7BB20: zmq::pipepair(zmq::object_t**, zmq::pipe_t**, int*, bool*) (pipe.cpp:49)
+==27690==    by 0x4A87F29: zmq::socket_base_t::connect(char const*) (socket_base.cpp:588)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 192 bytes in 2 blocks are still reachable in loss record 54 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A7BA90: zmq::pipepair(zmq::object_t**, zmq::pipe_t**, int*, bool*) (pipe.cpp:42)
+==27690==    by 0x4A87F29: zmq::socket_base_t::connect(char const*) (socket_base.cpp:588)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 192 bytes in 8 blocks are still reachable in loss record 55 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A6B560: zmq::epoll_t::add_fd(int, zmq::i_poll_events*) (epoll.cpp:54)
+==27690==    by 0x4A7FD4B: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:32)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 192 bytes in 3 blocks are still reachable in loss record 56 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C5435A: lCreateListHash (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5426D: lCreateList (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5DA21: lAddElemUlong (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DEC: feature_initialize (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52F83: feature_activate (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DA5: feature_initialize_from_string (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBD13: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 224 bytes in 2 blocks are still reachable in loss record 57 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A8DAD1: zmq::stream_engine_t::handshake() (stream_engine.cpp:519)
+==27690==    by 0x4A8E38E: zmq::stream_engine_t::in_event() (stream_engine.cpp:201)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 272 bytes in 2 blocks are still reachable in loss record 58 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A6CA95: zmq::io_thread_t::io_thread_t(zmq::ctx_t*, unsigned) (io_thread.cpp:30)
+==27690==    by 0x4A68C37: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 272 bytes in 2 blocks are still reachable in loss record 59 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A7FD15: zmq::reaper_t::reaper_t(zmq::ctx_t*, unsigned) (reaper.cpp:29)
+==27690==    by 0x4A68C7D: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 288 bytes in 1 blocks are still reachable in loss record 60 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C8638A: cl_com_create_handle (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFCA05: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 288 bytes in 4 blocks are still reachable in loss record 61 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C97593: cl_thread_list_create_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C85B65: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 312 bytes in 13 blocks are still reachable in loss record 62 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C94E1B: cl_raw_list_append_elem (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9764D: cl_thread_list_create_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C85B65: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 336 bytes in 2 blocks are still reachable in loss record 63 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A7BA24: zmq::pipepair(zmq::object_t**, zmq::pipe_t**, int*, bool*) (pipe.cpp:55)
+==27690==    by 0x4A87F29: zmq::socket_base_t::connect(char const*) (socket_base.cpp:588)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 336 bytes in 2 blocks are still reachable in loss record 64 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A7B9FA: zmq::pipepair(zmq::object_t**, zmq::pipe_t**, int*, bool*) (pipe.cpp:52)
+==27690==    by 0x4A87F29: zmq::socket_base_t::connect(char const*) (socket_base.cpp:588)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 352 bytes in 1 blocks are still reachable in loss record 65 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C75DBA: cl_com_create_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C69601: cl_com_tcp_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88224: cl_com_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F327: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 352 bytes in 1 blocks are still reachable in loss record 66 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C5418A: lCreateElem (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5C60: sge_evc_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF58E6: sge_evc_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9805: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 416 bytes in 2 blocks are still reachable in loss record 67 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A68AF8: zmq::ctx_t::create_socket(int) (ctx.cpp:235)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 416 bytes in 13 blocks are still reachable in loss record 68 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C966FE: cl_thread_create_thread_condition (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C96D81: cl_thread_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C95974: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 418 bytes in 1 blocks are still reachable in loss record 69 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x412FDA: Minisat::vec<Minisat::lbool>::capacity(int) (Vec.h:99)
+==27690==    by 0x411420: Minisat::Solver::newVar(bool, bool) (Vec.h:74)
+==27690==    by 0x40AC82: mainSolver(int, char**) (Dimacs.h:42)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 448 bytes in 2 blocks are still reachable in loss record 70 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A68A9E: zmq::ctx_t::create_socket(int) (ctx.cpp:228)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 520 bytes in 13 blocks are still reachable in loss record 71 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9672C: cl_thread_create_thread_condition (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C96D81: cl_thread_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C95974: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 520 bytes in 13 blocks are still reachable in loss record 72 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C96715: cl_thread_create_thread_condition (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C96D81: cl_thread_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C95974: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 520 bytes in 17 blocks are still reachable in loss record 73 of 112
+==27690==    at 0x4905D27: calloc (vg_replace_malloc.c:279)
+==27690==    by 0x4C541E2: lCreateElem (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5D9D6: lAddElemUlong (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DEC: feature_initialize (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52F83: feature_activate (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DA5: feature_initialize_from_string (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBD13: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 624 bytes in 13 blocks are still reachable in loss record 74 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C9674B: cl_thread_create_thread_condition (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C96D81: cl_thread_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C95974: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 640 bytes in 16 blocks are still reachable in loss record 75 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C94BFD: cl_raw_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C95924: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 896 bytes in 1 blocks are still reachable in loss record 76 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A93910: zmq::tcp_connecter_t::out_event() (tcp_connecter.cpp:129)
+==27690==    by 0x4A6BC5F: zmq::epoll_t::loop() (epoll.cpp:156)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 896 bytes in 1 blocks are still reachable in loss record 77 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A951BA: zmq::tcp_listener_t::in_event() (tcp_listener.cpp:95)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 896 bytes in 16 blocks are still reachable in loss record 78 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C94BAA: cl_raw_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C95924: cl_log_list_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8584F: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 918 bytes in 62 blocks are still reachable in loss record 79 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x3A2B671021: strdup (in /lib64/tls/libc-2.3.4.so)
+==27690==    by 0x4C54312: lCreateListHash (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5426D: lCreateList (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5DA21: lAddElemUlong (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DEC: feature_initialize (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52F83: feature_activate (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DA5: feature_initialize_from_string (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBD13: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 952 bytes in 17 blocks are still reachable in loss record 80 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C5415B: lCreateElem (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C5D9D6: lAddElemUlong (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DEC: feature_initialize (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52F83: feature_activate (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C52DA5: feature_initialize_from_string (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBD13: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 1,024 bytes in 2 blocks are still reachable in loss record 81 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A9E80E: zmq_ctx_new (zmq.cpp:159)
+==27690==    by 0x404EFB: communicator(void*) (Controller.cpp:360)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 1,040 bytes in 2 blocks are still reachable in loss record 82 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4CAE923: uidgid_state_get_last_username (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CADBF6: sge_uid2user (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE011: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 1,136 bytes in 2 blocks are still reachable in loss record 83 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A8DDEE: zmq::stream_engine_t::handshake() (stream_engine.cpp:524)
+==27690==    by 0x4A8E38E: zmq::stream_engine_t::in_event() (stream_engine.cpp:201)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 1,151 bytes in 57 blocks are still reachable in loss record 84 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4CAB9D0: sge_strdup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB0B5B: set_sge_root (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB08B8: sge_env_state_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB074D: sge_env_state_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFBC2F: sge_gdi_ctx_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB9A1: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 1,168 bytes in 1 blocks are still reachable in loss record 85 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A8415C: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:99)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404780: Broker(void*) (Controller.cpp:427)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 1,312 bytes in 1 blocks are still reachable in loss record 86 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A8412A: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:96)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404F0D: communicator(void*) (Controller.cpp:361)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 1,312 bytes in 1 blocks are still reachable in loss record 87 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A8418E: zmq::socket_base_t::create(int, zmq::ctx_t*, unsigned, int) (socket_base.cpp:102)
+==27690==    by 0x4A6887D: zmq::ctx_t::create_socket(int) (ctx.cpp:272)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 1,440 bytes in 2 blocks are still reachable in loss record 88 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A89541: zmq::socket_base_t::bind(char const*) (socket_base.cpp:367)
+==27690==    by 0x404790: Broker(void*) (Controller.cpp:428)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 1,552 bytes in 2 blocks are still reachable in loss record 89 of 112
+==27690==    at 0x4904F3B: operator new(unsigned long, std::nothrow_t const&) (vg_replace_malloc.c:184)
+==27690==    by 0x4A832A2: zmq::session_base_t::create(zmq::io_thread_t*, bool, zmq::socket_base_t*, zmq::options_t const&, zmq::address_t const*) (session_base.cpp:55)
+==27690==    by 0x4A87E21: zmq::socket_base_t::connect(char const*) (socket_base.cpp:565)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 2,000 bytes in 5 blocks are still reachable in loss record 90 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A70453: zmq::mailbox_t::send(zmq::command_t const&) (yqueue.hpp:106)
+==27690==    by 0x4A76C47: zmq::object_t::send_activate_read(zmq::pipe_t*) (object.cpp:237)
+==27690==    by 0x4A8E1CD: zmq::stream_engine_t::in_event() (stream_engine.cpp:259)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 2,048 bytes in 1 blocks are still reachable in loss record 91 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4078FE: std::vector<std::string, std::allocator<std::string> >::_M_insert_aux(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string> > >, std::string const&) (new_allocator.h:81)
+==27690==    by 0x404CEA: Publisher() (stl_vector.h:330)
+==27690==    by 0x405093: communicator(void*) (Controller.cpp:397)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 2,198 bytes in 4 blocks are still reachable in loss record 92 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x4131DA: Minisat::vec<char>::capacity(int) (Vec.h:99)
+==27690==    by 0x411484: Minisat::Solver::newVar(bool, bool) (Vec.h:74)
+==27690==    by 0x40AC82: mainSolver(int, char**) (Dimacs.h:42)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 3,344 bytes in 1 blocks are still reachable in loss record 93 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x41314E: Minisat::vec<double>::capacity(int) (Vec.h:99)
+==27690==    by 0x41144C: Minisat::Solver::newVar(bool, bool) (Vec.h:74)
+==27690==    by 0x40AC82: mainSolver(int, char**) (Dimacs.h:42)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 3,344 bytes in 1 blocks are still reachable in loss record 94 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x4130BE: Minisat::vec<Minisat::Solver::VarData>::capacity(int) (Vec.h:99)
+==27690==    by 0x411433: Minisat::Solver::newVar(bool, bool) (Vec.h:74)
+==27690==    by 0x40AC82: mainSolver(int, char**) (Dimacs.h:42)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 3,552 bytes in 3 blocks are still reachable in loss record 95 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x412ECE: Minisat::vec<int>::capacity(int) (Vec.h:99)
+==27690==    by 0x412F47: Minisat::vec<int>::growTo(int, int const&) (Vec.h:107)
+==27690==    by 0x41133C: Minisat::Solver::newVar(bool, bool) (Heap.h:101)
+==27690==    by 0x40AC82: mainSolver(int, char**) (Dimacs.h:42)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 3,600 bytes in 9 blocks are still reachable in loss record 96 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A709AE: zmq::mailbox_t::mailbox_t() (yqueue.hpp:52)
+==27690==    by 0x4A64F80: zmq::ctx_t::ctx_t() (ctx.cpp:51)
+==27690==    by 0x4A9E81E: zmq_ctx_new (zmq.cpp:159)
+==27690==    by 0x404760: Broker(void*) (Controller.cpp:425)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 4,032 bytes in 14 blocks are possibly lost in loss record 97 of 112
+==27690==    at 0x4905D27: calloc (vg_replace_malloc.c:279)
+==27690==    by 0x3A2B40D772: _dl_allocate_tls (in /lib64/ld-2.3.4.so)
+==27690==    by 0x3A2C106972: pthread_create@@GLIBC_2.2.5 (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x4C96E36: cl_thread_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C975C8: cl_thread_list_create_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C85B65: cl_com_setup_commlib (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFC4B7: sge_gdi_ctx_class_prepare_enroll (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3EA: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 4,096 bytes in 1 blocks are still reachable in loss record 98 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C75FB8: cl_com_create_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C69601: cl_com_tcp_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88224: cl_com_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F327: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 4,096 bytes in 1 blocks are still reachable in loss record 99 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4C75FA1: cl_com_create_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C69601: cl_com_tcp_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C88224: cl_com_setup_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C8F327: cl_commlib_open_connection (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C9132C: cl_commlib_send_message (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C01215: sge_gdi2_send_any_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00D69: sge_send_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C0064C: sge_send_receive_gdi2_request (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C001FC: gdi2_send_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4C00014: sge_gdi2_multi_sync (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFC91: sge_gdi2_multi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFFB6C: sge_gdi2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFF57A: sge_gdi_ctx_class_gdi (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BF5FE3: ec2_register (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB9947: japi_implementation_thread (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 4,104 bytes in 5 blocks are still reachable in loss record 100 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x40BE9E: Minisat::vec<Minisat::Lit>::capacity(int) (Vec.h:99)
+==27690==    by 0x40DEBB: Minisat::Solver::analyze(unsigned, Minisat::vec<Minisat::Lit>&, int&) (Vec.h:74)
+==27690==    by 0x40F939: Minisat::Solver::search(int) (Solver.cc:652)
+==27690==    by 0x4100AD: Minisat::Solver::solve_() (Solver.cc:817)
+==27690==    by 0x40AF0D: mainSolver(int, char**) (Solver.h:360)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 8,192 bytes in 2 blocks are still reachable in loss record 101 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x4A6A863: std::vector<unsigned, std::allocator<unsigned> >::_M_insert_aux(__gnu_cxx::__normal_iterator<unsigned*, std::vector<unsigned, std::allocator<unsigned> > >, unsigned const&) (new_allocator.h:81)
+==27690==    by 0x4A68BE8: zmq::ctx_t::create_socket(int) (stl_vector.h:330)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 11,363 bytes in 249 blocks are possibly lost in loss record 102 of 112
+==27690==    at 0x4904DB5: operator new(unsigned long) (vg_replace_malloc.c:168)
+==27690==    by 0x3A2E1902DD: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.3)
+==27690==    by 0x3A2E19269A: (within /usr/lib64/libstdc++.so.6.0.3)
+==27690==    by 0x3A2E1927B2: std::string::string(char const*, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.3)
+==27690==    by 0x404FCC: communicator(void*) (new_allocator.h:62)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 12,392 bytes in 33 blocks are still reachable in loss record 103 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4CAAC56: sge_malloc (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFB4FA: sge_gdi_ctx_class_create (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE12F: sge_setup2 (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BFE3AC: sge_gdi2_setup (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2D18: japi_init_mt (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4CB2EDF: japi_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x4BEE3F6: drmaa_init (in /opt/n1ge/lib/lx24-amd64/libdrmaa.so.1.0)
+==27690==    by 0x408C9D: JobController::JobController() (JobController.cpp:24)
+==27690==    by 0x4070B8: _GLOBAL__I_pathlength (Controller.h:45)
+==27690==    by 0x413AF5: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690==    by 0x40310A: (within /home/sasghar/minisat/Debug/DMSAT)
+==27690== 
+==27690== 
+==27690== 15,104 bytes in 1 blocks are still reachable in loss record 104 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x41381E: Minisat::vec<Minisat::vec<Minisat::Solver::Watcher> >::capacity(int) (Vec.h:99)
+==27690==    by 0x41387B: Minisat::vec<Minisat::vec<Minisat::Solver::Watcher> >::growTo(int) (Vec.h:115)
+==27690==    by 0x4110EA: Minisat::Solver::newVar(bool, bool) (SolverTypes.h:66)
+==27690==    by 0x40AC82: mainSolver(int, char**) (Dimacs.h:42)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16,384 bytes in 2 blocks are still reachable in loss record 105 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A9CF15: zmq::v2_decoder_t::v2_decoder_t(unsigned long, long) (decoder.hpp:56)
+==27690==    by 0x4A8DDD3: zmq::stream_engine_t::handshake() (stream_engine.cpp:519)
+==27690==    by 0x4A8E38E: zmq::stream_engine_t::in_event() (stream_engine.cpp:201)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16,384 bytes in 2 blocks are still reachable in loss record 106 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A9D629: zmq::v2_encoder_t::v2_encoder_t(unsigned long) (encoder.hpp:53)
+==27690==    by 0x4A8DCB3: zmq::stream_engine_t::handshake() (stream_engine.cpp:516)
+==27690==    by 0x4A8E38E: zmq::stream_engine_t::in_event() (stream_engine.cpp:201)
+==27690==    by 0x4A6BC9A: zmq::epoll_t::loop() (epoll.cpp:160)
+==27690==    by 0x4A9540E: thread_routine (thread.cpp:81)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16,416 bytes in 2 blocks are still reachable in loss record 107 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A7BB52: zmq::pipepair(zmq::object_t**, zmq::pipe_t**, int*, bool*) (yqueue.hpp:52)
+==27690==    by 0x4A87F29: zmq::socket_base_t::connect(char const*) (socket_base.cpp:588)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16,416 bytes in 2 blocks are still reachable in loss record 108 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A7BAC2: zmq::pipepair(zmq::object_t**, zmq::pipe_t**, int*, bool*) (yqueue.hpp:52)
+==27690==    by 0x4A87F29: zmq::socket_base_t::connect(char const*) (socket_base.cpp:588)
+==27690==    by 0x404F1D: communicator(void*) (Controller.cpp:362)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 16,432 bytes in 2 blocks are still reachable in loss record 109 of 112
+==27690==    at 0x4904A06: malloc (vg_replace_malloc.c:149)
+==27690==    by 0x4A68A6E: zmq::ctx_t::create_socket(int) (ctx.cpp:221)
+==27690==    by 0x404770: Broker(void*) (Controller.cpp:426)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 17,024 bytes in 2 blocks are still reachable in loss record 110 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x4132CE: Minisat::vec<unsigned>::capacity(int) (Vec.h:99)
+==27690==    by 0x4117CA: Minisat::Solver::addClause_(Minisat::vec<Minisat::Lit>&) (Vec.h:74)
+==27690==    by 0x40AE67: mainSolver(int, char**) (Dimacs.h:71)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 242,040 bytes in 1 blocks are still reachable in loss record 111 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x412A93: Minisat::RegionAllocator<unsigned>::capacity(unsigned) (XAlloc.h:35)
+==27690==    by 0x412B60: Minisat::RegionAllocator<unsigned>::alloc(int) (Alloc.h:115)
+==27690==    by 0x40F970: Minisat::Solver::search(int) (SolverTypes.h:196)
+==27690==    by 0x4100AD: Minisat::Solver::solve_() (Solver.cc:817)
+==27690==    by 0x40AF0D: mainSolver(int, char**) (Solver.h:360)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== 
+==27690== 577,696 bytes in 720 blocks are still reachable in loss record 112 of 112
+==27690==    at 0x4905E12: realloc (vg_replace_malloc.c:306)
+==27690==    by 0x41335E: Minisat::vec<Minisat::Solver::Watcher>::capacity(int) (Vec.h:99)
+==27690==    by 0x40EDC6: Minisat::Solver::propagate() (Vec.h:74)
+==27690==    by 0x40F8F5: Minisat::Solver::search(int) (Solver.cc:645)
+==27690==    by 0x4100AD: Minisat::Solver::solve_() (Solver.cc:817)
+==27690==    by 0x40AF0D: mainSolver(int, char**) (Solver.h:360)
+==27690==    by 0x404642: submit1(void*) (Controller.cpp:122)
+==27690==    by 0x3A2C106316: start_thread (in /lib64/tls/libpthread-2.3.4.so)
+==27690==    by 0x3A2B6CA262: clone (in /lib64/tls/libc-2.3.4.so)
+==27690== 
+==27690== LEAK SUMMARY:
+==27690==    definitely lost: 8 bytes in 2 blocks.
+==27690==      possibly lost: 15,425 bytes in 264 blocks.
+==27690==    still reachable: 1,013,515 bytes in 1,208 blocks.
+==27690==         suppressed: 0 bytes in 0 blocks.
+./run.sh: line 29: 27690 Killed                  valgrind --tool=memcheck --leak-check=yes --show-reachable=yes --num-callers=20 --track-fds=yes ./DMSAT /home/sasghar/Random/SAT/unifk3r425v360c1530S1459690542033

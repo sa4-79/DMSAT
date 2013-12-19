@@ -183,19 +183,19 @@ int mainSolver(int argc, char** argv)
             printStats1(S);
             printf("\n"); }
         printf(ret == l_True ? "SATISFIABLE\n" : ret == l_False ? "UNSATISFIABLE\n" : "INDETERMINATE\n");
-        if (res != NULL){
+      //  if (res != NULL){
             if (ret == l_True){
-                fprintf(res, "SAT\n");
+                //fprintf(res, "SAT\n");
                 for (int i = 0; i < S.nVars(); i++)
                     if (S.model[i] != l_Undef)
-                        fprintf(res, "%s%s%d", (i==0)?"":" ", (S.model[i]==l_True)?"":"-", i+1);
-                fprintf(res, " 0\n");
-            }else if (ret == l_False)
+                        printf("%s%s%d", (i==0)?"":" ", (S.model[i]==l_True)?"":"-", i+1);
+                printf(" 0\n");
+            }/*else if (ret == l_False)
                 fprintf(res, "UNSAT\n");
             else
                 fprintf(res, "INDET\n");
             fclose(res);
-        }
+        }*/
         
 #ifdef NDEBUG
         exit(ret == l_True ? 10 : ret == l_False ? 20 : 0);     // (faster than "return", which will invoke the destructor for 'Solver')
@@ -212,29 +212,19 @@ int mainSolver(int argc, char** argv)
 string getPaths(int pathlength)
  {
 	string test;
-	//int pathlength=3;
 	int count=0;
 	bool flag=false;
-	//printf("Trail size ==========%d\n",Sol.trail.size());
 
 	for(int tt=0;tt<solver->trail.size();tt++)
 			        				{
-			        	         //if(tt==2)
-			        		       //break;
-			        		 	 	 	int t=var(solver->trail[tt]);
+			        	         	 	int t=var(solver->trail[tt]);
 			        		 	 	 	//t--;
 			        					if (solver->value(t) != l_Undef)
 			        					{
 			        						(solver->value(t)==l_True)?t=(t+1)*-1: t=t+1;
 
-
-			        						//printf("Value ==========%d\n",t);
-			        						//cout<<test<<">>>"<<endl;
-
 			        						if(t<0)
 			        						{
-			        							//cout<<t<<">>>"<<endl;
-			        						//	flag=true;
 			        							t=t * (-1);
 			        						}
 
@@ -243,11 +233,7 @@ string getPaths(int pathlength)
 
 			        						test+=out.str()+",";
 			        						count++;
-			        						//if(flag)
 			        						{
-			        							//cout<<test<<"***************************"<<endl;
-
-
 			        							if(count>=pathlength)
 			        							break;
 			        						}
@@ -258,39 +244,6 @@ string getPaths(int pathlength)
 			        					}
 
 			        				}
-			        /*	 for (int j=0;j<test.size();j++)
-			        	 		{
-			        	 			cout<<"Args"<<test[j]<<endl;
-
-
-
-			        	 		}*/
-			        		//cout<<test<<"***************************"<<endl;
-			        		//exit(0);
-
-
-
-	 //ClauseAllocator     ca;
-	/*for (int i=0; i < solver->learnts.size(); i++)
-	{
-	        Clause& c = solver->ca[solver->learnts[i]];
-
-	       if(c.size()<6)
-	       {
-	        for (int j = 0; j < c.size(); j++)
-	        {
-	        	if(solver->value(c[j]) !=l_Undef){
-		        	int t=var(c[j]);
-    			 printf( "%s%s%d", (t==0)?"":" ", (solver->value(c[j])==l_True)?"":"-", t);
-	        	}
-	        	//if(true)
-	        	  // if(solver->value(c[j]) !=l_Undef)
-	        }
-	        cout<<endl<<"Learnt size "<<solver->learnts.size()<<endl<<" *******************"<<endl;
-	       }
-	}*/
-
-
 
 
 	return test;
@@ -298,4 +251,38 @@ string getPaths(int pathlength)
 
 
  }
+
+vector<string> getLearnt()
+{
+	vector<string> Learnetlocal;
+	char buffer[10];
+	for (int i=0; i <solver->learnts.size(); i++)
+			{
+			     std::string clause;
+
+
+				  Clause& c = solver->ca[solver->learnts[i]];
+				  if(c.size()<8)
+				   {
+					for (int j = 0; j < c.size(); j++)
+					{
+						 int t=var(c[j])+1;
+					 if (sign(c[j])) t = -t;
+						sprintf(buffer,"%d",t);
+						clause +=std::string (buffer) + " ";
+
+
+					}
+
+
+
+					Learnetlocal.push_back(clause);
+			      // std::cout<<clause<<"\n";
+			    //s_send (requester, (char *)clause.c_str());
+
+			      }
+			}
+	return Learnetlocal;
+
+}
 

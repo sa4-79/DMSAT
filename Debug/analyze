@@ -1,0 +1,402 @@
+UNSATISFIABLE
+Time taken: 108.89s
+UNSATISFIABLE
+Time taken: 148.21s
+UNSATISFIABLE
+Time taken: 174.80s
+UNSATISFIABLE
+Time taken: 420.22s
+UNSATISFIABLE
+Time taken: 231.11s
+UNSATISFIABLE
+Time taken: 160.09s
+UNSATISFIABLE
+Time taken: 104.32s
+UNSATISFIABLE
+Time taken: 229.33s
+UNSATISFIABLE
+Time taken: 175.52s
+UNSATISFIABLE
+Time taken: 101.44s
+TimeOut
+Time taken: 1182.71
+UNSATISFIABLE
+Time taken: 1057.93s
+UNSATISFIABLE
+Time taken: 505.01s
+UNSATISFIABLE
+Time taken: 687.51s
+UNSATISFIABLE
+Time taken: 559.54s
+UNSATISFIABLE
+Time taken: 237.64s
+UNSATISFIABLE
+Time taken: 960.68s
+UNSATISFIABLE
+Time taken: 332.30s
+UNSATISFIABLE
+Time taken: 573.70s
+UNSATISFIABLE
+Time taken: 710.50s
+TimeOut
+Time taken: 1199.85
+TimeOut
+Time taken: 1199.85
+TimeOut
+Time taken: 1022.11
+TimeOut
+Time taken: 1199.96
+TimeOut
+Time taken: 1199.97
+TimeOut
+Time taken: 1199.8
+UNSATISFIABLE
+Time taken: 662.12s
+TimeOut
+Time taken: 1199.99
+TimeOut
+Time taken: 1199.99
+TimeOut
+Time taken: 930.02
+TimeOut
+Time taken: 955.73
+UNSATISFIABLE
+Time taken: 1043.82s
+TimeOut
+Time taken: 1184.26
+TimeOut
+Time taken: 1193.45
+TimeOut
+Time taken: 879.95
+TimeOut
+Time taken: 906.68
+TimeOut
+Time taken: 877.77
+TimeOut
+Time taken: 1012.58
+TimeOut
+Time taken: 942.73
+TimeOut
+Time taken: 989.88
+TimeOut
+Time taken: 948.97
+TimeOut
+Time taken: 939.12
+TimeOut
+Time taken: 934.48
+TimeOut
+Time taken: 1172.4
+TimeOut
+Time taken: 1199.6
+TimeOut
+Time taken: 924.79
+TimeOut
+Time taken: 921.05
+TimeOut
+Time taken: 906.66
+TimeOut
+Time taken: 880.59
+TimeOut
+Time taken: 879.03
+TimeOut
+Time taken: 1199.55
+TimeOut
+Time taken: 905.44
+TimeOut
+Time taken: 1039.22
+TimeOut
+Time taken: 906.23
+TimeOut
+Time taken: 906.02
+TimeOut
+Time taken: 1027.65
+TimeOut
+Time taken: 902.59
+TimeOut
+Time taken: 908.44
+TimeOut
+Time taken: 903.6
+TimeOut
+Time taken: 876.11
+TimeOut
+Time taken: 879.46
+TimeOut
+Time taken: 875.71
+TimeOut
+Time taken: 878.34
+TimeOut
+Time taken: 874.42
+TimeOut
+Time taken: 876.96
+TimeOut
+Time taken: 879.68
+TimeOut
+Time taken: 876.83
+TimeOut
+Time taken: 917.86
+TimeOut
+Time taken: 917.38
+TimeOut
+Time taken: 1197.58
+TimeOut
+Time taken: 950
+TimeOut
+Time taken: 879.52
+TimeOut
+Time taken: 1047.46
+TimeOut
+Time taken: 939.12
+TimeOut
+Time taken: 873.81
+TimeOut
+Time taken: 1049.39
+TimeOut
+Time taken: 1050.96
+TimeOut
+Time taken: 956.97
+TimeOut
+Time taken: 973.72
+TimeOut
+Time taken: 1050.56
+TimeOut
+Time taken: 1024
+TimeOut
+Time taken: 848.8
+TimeOut
+Time taken: 825.41
+TimeOut
+Time taken: 736.56
+TimeOut
+Time taken: 861.53
+TimeOut
+Time taken: 845.68
+TimeOut
+Time taken: 1101.92
+TimeOut
+Time taken: 796.29
+TimeOut
+Time taken: 662.96
+TimeOut
+Time taken: 910.42
+TimeOut
+Time taken: 728.98
+TimeOut
+Time taken: 726.31
+TimeOut
+Time taken: 895.62
+TimeOut
+Time taken: 808.75
+TimeOut
+Time taken: 890.69
+TimeOut
+Time taken: 924.17
+TimeOut
+Time taken: 1138.11
+TimeOut
+Time taken: 828
+TimeOut
+Time taken: 825.07
+TimeOut
+Time taken: 1199.78
+TimeOut
+Time taken: 1199.53
+TimeOut
+Time taken: 933.48
+TimeOut
+Time taken: 788.56
+TimeOut
+Time taken: 814.88
+TimeOut
+Time taken: 794.51
+TimeOut
+Time taken: 802.2
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S1293537826-039.cnf
+SATISFIABLE
+Time taken: 167.11s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S144043535-002.cnf
+SATISFIABLE
+Time taken: 27.41s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S1448866403-060.cnf
+SATISFIABLE
+Time taken: 35.06s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S1459690542-033.cnf
+SATISFIABLE
+Time taken: 21.45s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S1684547485-073.cnf
+SATISFIABLE
+Time taken: 42.43s
+SATISFIABLE
+Time taken: 42.44s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S1711406314-093.cnf
+SATISFIABLE
+Time taken: 19.59s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S1826927554-087.cnf
+SATISFIABLE
+Time taken: 2.95s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S2032263657-035.cnf
+SATISFIABLE
+Time taken: 11.30s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S368632549-051.cnf
+SATISFIABLE
+Time taken: 63.54s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/360/unif-k3-r4.25-v360-c1530-S722433227-030.cnf
+SATISFIABLE
+Time taken: 43.68s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1036996799-006.cnf
+SATISFIABLE
+Time taken: 18.79s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1041106011-094.cnf
+SATISFIABLE
+Time taken: 28.18s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1516934767-080.cnf
+SATISFIABLE
+Time taken: 26.74s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1674394075-027.cnf
+SATISFIABLE
+Time taken: 19.14s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1804335510-002.cnf
+SATISFIABLE
+Time taken: 171.45s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1841979702-078.cnf
+SATISFIABLE
+Time taken: 61.48s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1912687159-077.cnf
+SATISFIABLE
+Time taken: 0.19s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S1985172968-100.cnf
+SATISFIABLE
+Time taken: 20.69s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S326477539-068.cnf
+SATISFIABLE
+Time taken: 12.95s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/380/unif-k3-r4.25-v380-c1615-S486002104-037.cnf
+SATISFIABLE
+Time taken: 21.98s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S1326039470-063.cnf
+SATISFIABLE
+Time taken: 19.59s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S142096783-019.cnf
+SATISFIABLE
+Time taken: 377.60s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S1531283922-009.cnf
+SATISFIABLE
+Time taken: 121.17s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S172053238-003.cnf
+SATISFIABLE
+Time taken: 260.10s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S1767425240-073.cnf
+SATISFIABLE
+Time taken: 61.58s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S2032726331-082.cnf
+SATISFIABLE
+Time taken: 25.96s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S418266958-049.cnf
+SATISFIABLE
+Time taken: 121.92s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S419666888-007.cnf
+SATISFIABLE
+Time taken: 145.20s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S714125262-017.cnf
+SATISFIABLE
+Time taken: 258.40s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/400/unif-k3-r4.25-v400-c1700-S981523907-072.cnf
+SATISFIABLE
+Time taken: 52.67s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1014608490-038.cnf
+SATISFIABLE
+Time taken: 87.81s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1139247531-051.cnf
+SATISFIABLE
+Time taken: 136.41s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1362286908-061.cnf
+SATISFIABLE
+Time taken: 39.18s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1460100153-095.cnf
+SATISFIABLE
+Time taken: 55.98s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1624574519-076.cnf
+SATISFIABLE
+Time taken: 232.79s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1778559297-006.cnf
+SATISFIABLE
+Time taken: 189.15s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S180439591-093.cnf
+SATISFIABLE
+Time taken: 38.32s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1880984131-087.cnf
+SATISFIABLE
+Time taken: 17.33s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S1940784272-089.cnf
+SATISFIABLE
+Time taken: 177.31s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/420/unif-k3-r4.25-v420-c1785-S311671104-045.cnf
+SATISFIABLE
+Time taken: 10.18s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S110290755-003.cnf
+SATISFIABLE
+Time taken: 700.93s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S1112524719-021.cnf
+SATISFIABLE
+Time taken: 187.61s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S1263695887-042.cnf
+SATISFIABLE
+Time taken: 385.62s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S1339293988-069.cnf
+SATISFIABLE
+Time taken: 143.00s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S1666821205-020.cnf
+SATISFIABLE
+Time taken: 137.71s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S1864638535-048.cnf
+SATISFIABLE
+Time taken: 272.24s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S208461254-049.cnf
+SATISFIABLE
+Time taken: 64.60s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S725789261-031.cnf
+SATISFIABLE
+Time taken: 41.33s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S780904324-093.cnf
+SATISFIABLE
+Time taken: 292.53s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/440/unif-k3-r4.25-v440-c1870-S787972994-025.cnf
+SATISFIABLE
+Time taken: 278.23s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S1367181683-025.cnf
+SATISFIABLE
+Time taken: 272.52s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S1546885609-031.cnf
+SATISFIABLE
+Time taken: 209.71s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S1555503917-029.cnf
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S1614425450-034.cnf
+SATISFIABLE
+Time taken: 100.74s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S1733990810-090.cnf
+SATISFIABLE
+Time taken: 19.74s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S2035161427-020.cnf
+SATISFIABLE
+Time taken: 34.93s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S2067258640-036.cnf
+SATISFIABLE
+Time taken: 120.73s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S2106599808-035.cnf
+SATISFIABLE
+Time taken: 414.22s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S321371087-018.cnf
+SATISFIABLE
+Time taken: 71.32s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/460/unif-k3-r4.25-v460-c1955-S617358728-082.cnf
+SATISFIABLE
+Time taken: 348.72s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/480/unif-k3-r4.25-v480-c2040-S1002348653-090.cnf
+SATISFIABLE
+Time taken: 384.42s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/480/unif-k3-r4.25-v480-c2040-S1229813320-044.cnf
+SATISFIABLE
+Time taken: 503.81s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/480/unif-k3-r4.25-v480-c2040-S1338462531-082.cnf
+SATISFIABLE
+Time taken: 706.81s
+/home/sasghar/Random/RandomBench/SAT09/RANDOM/MEDIUM/3SAT/SATISFIABLE/480/unif-k3-r4.25-v480-c2040-S1528563858-100.cnf

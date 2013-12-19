@@ -1,0 +1,184 @@
+/home/sasghar/Random/SAT/unif-k3-r4.25-v360-c1530-S1459690542-033.cnf
+Error deleting file
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510449
+Your job has been submitted with id 4510450
+Your job has been submitted with id 4510451
+Your job has been submitted with id 4510452
+Your job has been submitted with id 4510453
+Your job has been submitted with id 4510454
+Your job has been submitted with id 4510455
+Your job has been submitted with id 4510456
+SATISFIABLE
+Time taken: 24.83s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v360-c1530-S1711406314-093.cnf
+Error deleting file
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510457
+Your job has been submitted with id 4510458
+Your job has been submitted with id 4510459
+Your job has been submitted with id 4510460
+Your job has been submitted with id 4510461
+Your job has been submitted with id 4510462
+Your job has been submitted with id 4510463
+Your job has been submitted with id 4510464
+SATISFIABLE
+Time taken: 16.68s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v380-c1615-S1036996799-006.cnf
+Error deleting file
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510465
+Your job has been submitted with id 4510466
+Your job has been submitted with id 4510467
+Your job has been submitted with id 4510468
+Your job has been submitted with id 4510469
+Your job has been submitted with id 4510470
+Your job has been submitted with id 4510471
+Your job has been submitted with id 4510472
+SATISFIABLE
+Time taken: 33.83s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v380-c1615-S1041106011-094.cnf
+File successfully deleted
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510473
+Your job has been submitted with id 4510474
+Your job has been submitted with id 4510475
+Your job has been submitted with id 4510476
+Your job has been submitted with id 4510477
+Your job has been submitted with id 4510478
+Your job has been submitted with id 4510479
+Your job has been submitted with id 4510480
+Your job has been submitted with id 4510481
+Your job has been submitted with id 4510482
+Your job has been submitted with id 4510483
+Your job has been submitted with id 4510484
+Your job has been submitted with id 4510485
+Your job has been submitted with id 4510486
+Your job has been submitted with id 4510487
+Your job has been submitted with id 4510488
+Your job has been submitted with id 4510489
+Your job has been submitted with id 4510490
+Your job has been submitted with id 4510491
+Your job has been submitted with id 4510492
+Your job has been submitted with id 4510493
+Your job has been submitted with id 4510494
+Your job has been submitted with id 4510495
+Your job has been submitted with id 4510496
+SATISFIABLE
+Could not kill job: There are no jobs registered
+Could not kill job: There are no jobs registered
+Could not kill job: There are no jobs registered
+Time taken: 101.35s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v380-c1615-S1516934767-080.cnf
+File successfully deleted
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510498
+Your job has been submitted with id 4510499
+Your job has been submitted with id 4510500
+Your job has been submitted with id 4510501
+Your job has been submitted with id 4510502
+Your job has been submitted with id 4510503
+Your job has been submitted with id 4510504
+Your job has been submitted with id 4510505
+===============================================================================
+restarts              : 3069
+conflicts             : 1576574        (52431 /sec)
+decisions             : 1962292        (0.00 % random) (65259 /sec)
+propagations          : 92904000       (3089650 /sec)
+conflict literals     : 30390812       (19.23 % deleted)
+Memory used           : 70.44 MB
+CPU time              : 30.0694 s
+
+SATISFIABLE
+**********************************************
+Time taken: 30.20s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v380-c1615-S1985172968-100.cnf
+File successfully deleted
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510506
+Your job has been submitted with id 4510507
+Your job has been submitted with id 4510508
+Your job has been submitted with id 4510509
+Your job has been submitted with id 4510510
+Your job has been submitted with id 4510511
+Your job has been submitted with id 4510512
+Your job has been submitted with id 4510513
+SATISFIABLE
+Time taken: 24.93s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v400-c1700-S1326039470-063.cnf
+File successfully deleted
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510514
+Your job has been submitted with id 4510515
+Your job has been submitted with id 4510516
+Your job has been submitted with id 4510517
+Your job has been submitted with id 4510518
+Your job has been submitted with id 4510519
+Your job has been submitted with id 4510520
+Your job has been submitted with id 4510521
+SATISFIABLE
+Time taken: 23.33s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v420-c1785-S1362286908-061.cnf
+File successfully deleted
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510522
+Your job has been submitted with id 4510523
+Your job has been submitted with id 4510524
+Your job has been submitted with id 4510525
+Your job has been submitted with id 4510526
+Your job has been submitted with id 4510527
+Your job has been submitted with id 4510528
+Your job has been submitted with id 4510529
+SATISFIABLE
+Could not kill job: There are no jobs registered
+Could not kill job: There are no jobs registered
+Time taken: 34.76s
+Running jobs are killed successfully
+/home/sasghar/Random/SAT/unif-k3-r4.25-v440-c1870-S725789261-031.cnf
+File successfully deleted
+**********************************************
+WARNING: for repeatability, setting FPU to use double precision
+Your job has been submitted with id 4510531
+Your job has been submitted with id 4510532
+Your job has been submitted with id 4510533
+Your job has been submitted with id 4510534
+Your job has been submitted with id 4510535
+Your job has been submitted with id 4510536
+Your job has been submitted with id 4510537
+Your job has been submitted with id 4510538
+Your job has been submitted with id 4510539
+Your job has been submitted with id 4510540
+Your job has been submitted with id 4510541
+Your job has been submitted with id 4510542
+Your job has been submitted with id 4510543
+Your job has been submitted with id 4510544
+Your job has been submitted with id 4510545
+Your job has been submitted with id 4510546
+===============================================================================
+restarts              : 4095
+conflicts             : 2354145        (45217 /sec)
+decisions             : 2955233        (0.00 % random) (56763 /sec)
+propagations          : 155163091      (2980290 /sec)
+conflict literals     : 51267786       (19.16 % deleted)
+Memory used           : 88.22 MB
+CPU time              : 52.0631 s
+
+SATISFIABLE
+**********************************************
+Time taken: 52.39s
+Running jobs are killed successfully

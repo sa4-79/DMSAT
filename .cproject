@@ -25,12 +25,18 @@
 							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1390830721" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
 								<option id="macosx.cpp.link.option.libs.580204548" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs">
 									<listOptionValue builtIn="false" value="z"/>
+									<listOptionValue builtIn="false" value="zmq"/>
 									<listOptionValue builtIn="false" value="drmaa"/>
 									<listOptionValue builtIn="false" value="pthread"/>
 								</option>
 								<option id="macosx.cpp.link.option.paths.631556287" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="/opt/n1ge/lib/lx24-amd64/"/>
+									<listOptionValue builtIn="false" value="/home/sasghar/Zeromq/zmq/lib"/>
 									<listOptionValue builtIn="false" value="/usr/local/boost/lib"/>
+								</option>
+								<option id="macosx.cpp.link.option.other.1263969130" name="Other options (-Xlinker [option])" superClass="macosx.cpp.link.option.other" valueType="stringList">
+									<listOptionValue builtIn="false" value="-rpath /home/sasghar/Zeromq/zmq/lib"/>
+									<listOptionValue builtIn="false" value="-rpath /opt/n1ge/lib/lx24-amd64/"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.835035097" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
@@ -46,6 +52,7 @@
 								<option id="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level.1332583225" name="Debug Level" superClass="gnu.cpp.compiler.macosx.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.default" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.527034740" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="/opt/n1ge/include/"/>
+									<listOptionValue builtIn="false" value="/home/sasghar/Zeromq/zmq/include/"/>
 									<listOptionValue builtIn="false" value="/usr/local/boost/include"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.other.308475077" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -D __STDC_LIMIT_MACROS -D __STDC_FORMAT_MACROS" valueType="string"/>

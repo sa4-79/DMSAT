@@ -266,9 +266,12 @@ bool JobController::analysis(char* outPut)
 	    }
 
 	}
-bool JobController::waitforJobs(char* jobid)
+bool JobController::waitforJobs(string jobid)
 {
 	 char jobid_out[DRMAA_JOBNAME_BUFFER];
+	 char jobidu[DRMAA_JOBNAME_BUFFER];
+	strcpy(jobidu, jobid.c_str());
+
 	 char error[DRMAA_ERROR_STRING_BUFFER];
 	 int status = 0;
 	 int errnum = 0;
@@ -286,7 +289,9 @@ bool JobController::waitforJobs(char* jobid)
 		          drmaa_attr_values_t *rusage = NULL;
 
 		          {
-		        	            errnum = drmaa_wait (jobid, jobid_out, DRMAA_JOBNAME_BUFFER, &status,
+           	         // cout<<"Job started"<<"Batch Id "<<batchId<<" Batch Id Coun="<<batchCounter[batchId]<<endl;
+
+		        	            errnum = drmaa_wait (jobidu, jobid_out, DRMAA_JOBNAME_BUFFER, &status,
 		        	                                  DRMAA_TIMEOUT_WAIT_FOREVER, &rusage, error,
 		        	                                  DRMAA_ERROR_STRING_BUFFER);
 
@@ -311,16 +316,28 @@ bool JobController::waitforJobs(char* jobid)
 		        	                      int exit_status = 0;
 
 		        	                      drmaa_wexitstatus(&exit_status, status, NULL, 0);
-		        	                      printf("Job %s finished regularly with exit status %d\n", jobid, exit_status);
-		        	                      analysis("//home//sasghar//test/test.out");
+		        	                      //printf("Job %s finished regularly with exit status %d\n", jobidu, exit_status);
+		        	                      if(exit_status==10)
+		        	                      {
+		        	                    	  cout<<"Formula is SATISFIABLE"<<endl
+		        	                    		  <<"Output model is written in the file "<<outPutPath<<endl;
+		        	                    	  printf("Time taken: %.2fs\n", (double)(clock() - StartTime)/CLOCKS_PER_SEC);
+		        	                    	  	   		cleanUp();
+		        	                    	  	   		exit(0);
+		        	                      }
+		        	                      else
+		        	                      {
+		        	                      //analysis("//home//sasghar//test/test.out");
 		        	                      batchCounter[batchId]-=1;
-		        	           	       cout<<"Job finished with UNSATISFIABLE"<<"Batch Id "<<batchId<<" Batch Id Coun="<<batchCounter[batchId]<<endl;
+		        	                      }
+		        	           	        //  cout<<"Job finished with UNSATISFIABLE"<<"Batch Id "<<batchId<<" Batch Id Coun="<<batchCounter[batchId]<<endl;
 
 		        	           	     if(batchCounter[batchId]<=0)
 		        	           	     {
 		        	           	    	cout<<"Formula is UNSATISFIABLE"<<endl;
+		        	           	    	printf("Time taken: %.2fs\n", (double)(clock() - StartTime)/CLOCKS_PER_SEC);
 		        	           	    	cleanUp();
-		        	           	 	exit(0);
+		        	           	 	    exit(20);
 
 		        	           	     }
 
@@ -336,10 +353,10 @@ bool JobController::waitforJobs(char* jobid)
 		        	                         char termsig[DRMAA_SIGNAL_BUFFER+1];
 
 		        	                         drmaa_wtermsig(termsig, DRMAA_SIGNAL_BUFFER, status, NULL, 0);
-		        	                         printf("Job %s finished due to signal %s\n", jobid, termsig);
+		        	                         printf("Job %s finished due to signal %s\n", jobidu, termsig);
 		        	                      }
 		        	                      else {
-		        	                         printf("Job %s finished with unclear conditions\n", jobid);
+		        	                         printf("Job %s finished with unclear conditions\n", jobidu);
 		        	                      }
 		        	                   } /* else */
 		        	                } /* else*/
@@ -366,20 +383,28 @@ bool JobController::cleanUp()
 {
 	int errnum = 0;
 	  char error[DRMAA_ERROR_STRING_BUFFER];
+	  int freeedCpus=0;
+	  int runningCpus=0;
 
   	 for(unsigned int i=0;i<jobsIds.size();i++)
   	 {
   		//cout<<jobsIds[i]<<endl;
   		errnum = drmaa_control (jobsIds[i].c_str(), DRMAA_CONTROL_TERMINATE, error, DRMAA_ERROR_STRING_BUFFER);
-  		if (errnum != DRMAA_ERRNO_SUCCESS) {
-  			   						fprintf (stderr, "Could not kill job: %s\n", error);}
+  		if (errnum != DRMAA_ERRNO_SUCCESS)
+  		{
+  		   fprintf (stderr, "Could not kill job: %s\n", error);
+  		 freeedCpus++;
+
+  		}
 
   		else
   		{
-  			cout<<"job #"<<jobsIds[i]<<" killed successfully"<<endl;
+  			//cout<<"job #"<<jobsIds[i]<<" killed successfully"<<endl;
+  			runningCpus;
   		}
 
   	 }
+  	cout<< runningCpus <<" running jobs are killed successfully, total number of reused CPUs is "<<freeedCpus<<endl;
   	errnum = drmaa_exit (error, DRMAA_ERROR_STRING_BUFFER);
   					if (errnum != DRMAA_ERRNO_SUCCESS) {
   						fprintf (stderr, "Could not shut down the DRMAA library: %s\n", error);
@@ -389,7 +414,7 @@ bool JobController::cleanUp()
 
 }
 
-char* JobController::runAsyncjob(vector<string> argv, char* outPut )
+string JobController::runAsyncjob(vector<string> argv, char* outPut )
 {
 	// cout<<"jc.outPutPath="<<outPutPath<<endl;
 
@@ -458,7 +483,7 @@ char* JobController::runAsyncjob(vector<string> argv, char* outPut )
 						   fprintf (stderr, "Could not submit job: %s\n", error);
 					   }
 					   else {
-						   printf ("Your job has been submitted with id %s\n", jobid);
+						  // printf ("Your job has been submitted with id %s\n", jobid);
 
 					   }
 				   } /* else */
@@ -474,7 +499,7 @@ char* JobController::runAsyncjob(vector<string> argv, char* outPut )
 					fprintf (stderr, "Could not shut down the DRMAA library: %s\n", error);
 					return NULL;
 				}*/
-				return jobid;
+				return string(jobid);
 
 	}
 

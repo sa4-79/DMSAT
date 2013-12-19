@@ -48,7 +48,7 @@ all: DMSAT
 DMSAT: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -L/opt/n1ge/lib/lx24-amd64/ -L/usr/local/boost/lib -o "DMSAT" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L/opt/n1ge/lib/lx24-amd64/ -L/home/sasghar/Zeromq/zmq/lib -L/usr/local/boost/lib -Xlinker -rpath /home/sasghar/Zeromq/zmq/lib -Xlinker -rpath /opt/n1ge/lib/lx24-amd64/ -o "DMSAT" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
