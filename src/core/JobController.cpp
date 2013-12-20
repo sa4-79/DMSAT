@@ -400,7 +400,7 @@ bool JobController::cleanUp()
   		else
   		{
   			//cout<<"job #"<<jobsIds[i]<<" killed successfully"<<endl;
-  			runningCpus;
+  			runningCpus++;
   		}
 
   	 }

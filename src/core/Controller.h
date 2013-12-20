@@ -7,6 +7,8 @@
 
 #ifndef CONTROLLER_H_
 #define CONTROLLER_H_
+
+#include "../ClusterMonitor/OGEmonitor.h"
 #include "zhelpers.h"
 #include "Main.h"
 #include <string.h>

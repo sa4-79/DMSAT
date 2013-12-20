@@ -20,6 +20,8 @@ struct Argumnets {
 int main(int argc, char *argv[])
 {
 	jc.StartTime=clock();
+	exec(" qstat -g c | awk '{Avaliable+=$3} { Used+=$4} {total+=$5} END {print Avaliable, Used, total}'");
+
 
 	 if( argc != 2 )
 	   {
