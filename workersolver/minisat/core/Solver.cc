@@ -1023,6 +1023,8 @@ int Solver::reciveData ()
 	    		  lits.push( (parsed_lit > 0) ? mkLit(var) : ~mkLit(var) );
 
 	    	 }
+	    	 if (lits.size() == 0)
+	    		 return -1;
 	    	 CRef cr =ca.alloc(lits, true);
 	    	 learnts.push(cr);
 	    	 attachClause(cr);
