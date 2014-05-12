@@ -1,0 +1,50 @@
+DMSAT Version 1.0.0 28/09/2013
+=============================================================================
+GENERAL USAGE NOTES
+---------------------
+- DMSAT is a sat solver that is developed to run on top of Distributed Resource Management Systems(DRMS). The testing of this version is done using Oracle Grid Engine (OGE).
+
+- Make sure to set the values of required environment variables before running the DMSAT
+
+- Modify the makfiles before building the project and set the values of the lib and include directories 
+
+==============================================================================
+
+DIRECTORY OVERVIEW:
+
+mtl/            Mini Template Library
+utils/          Generic helper code (I/O, Parsing, CPU-time, etc)
+core/           A core version of the solver
+simp/           An extended solver with simplification capabilities
+Debug/			Has all building tools and make files.	
+workersolver	contains source code of miniSat that is modified to run as worker on remote machines, the environment variable WORKERSOLVER should points to directory 
+README
+LICENSE
+
+================================================================================
+BUILDING:
+Modify the following makfiles before building the project and set the values of the lib and include directories.
+        - Debug/makefile
+        - Debug/core/subdir.mk
+        - Debug/utils/subdir.mk
+        - Debug/simp/subdir.mk
+
+
+cd Debug
+make all
+or
+There is an eclipse CDT project file that is provided with this distribution, import the project in eclipse and then you can build it from CDT.
+================================================================================
+EXAMPLES:
+A sample run script run.sh is provided in the Debug directory. Before running DMSAT make sure to set following environment variables.
+======================================================================
+TIMEOUT To set the value for timeout this is useful for SAT race competitions like mode of runnign where a job is killed after a defined number of seconds.
+COHORTSIZE 	Contain the value for the job cohort size
+WAITTIME	Setting the value for the wait time before submitting a new cohort of jobs
+RAMPUPTIME	Setting the value for initial ramp-up time
+WORKERSOLVER	setting the value for the path to the worker solver
+OUTPUTFILE	setting the value of temporary output file
+After setting the values of the above mentioned environment variable(see Debug/run.sh for sample values), we can run SAT solver as 
+
+./DMSAT <path to the CNF file>
+in the case of any problem or question please contact sajjad.asghar@unb.ca
