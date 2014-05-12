@@ -10,7 +10,10 @@ RM := rm -rf
 -include sources.mk
 -include src/utils/subdir.mk
 -include src/core/subdir.mk
+<<<<<<< HEAD
 -include src/ClusterMonitor/subdir.mk
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 -include subdir.mk
 -include objects.mk
 

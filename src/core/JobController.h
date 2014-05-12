@@ -19,9 +19,12 @@ private:
 	map<int,int> batchCounter;
 	string solverPAth;
 	string outPutPath;
+<<<<<<< HEAD
 	int freedCpus;
     int runningCpus;
     int ReusedCpus;
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 
 
 public:
@@ -36,10 +39,13 @@ public:
 	bool runjob(vector<string> argv, char* outPut );
 
 	string runAsyncjob(vector<string> argv, char* outPut );
+<<<<<<< HEAD
 	int getNumRunningJobs();
 	int getNumSubmitted();
 	int getNumFinished();
 	void setReused(int Cpus);
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 	bool analysis(char* outPut);
 	bool waitforJobs(string jobid);
 	bool cleanUp();

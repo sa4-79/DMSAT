@@ -18,9 +18,12 @@ using namespace std;
 JobController::JobController()
 {
 //	 mutex1 = PTHREAD_MUTEX_INITIALIZER;
+<<<<<<< HEAD
 	freedCpus=0;
 	ReusedCpus=0;
 	  runningCpus=0;
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 	 char error[DRMAA_ERROR_STRING_BUFFER];
 	 current_batch=0;
 		    int errnum = 0;
@@ -59,12 +62,20 @@ JobController::JobController()
 		   	 	 	 		 	 }
 		   	 		 	// cout<<"jc.outPutPath="<<outPutPath<<endl;
 
+<<<<<<< HEAD
 /*
+=======
+
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 		   	 	 	     if(remove(pPath.substr(1).c_str())!= 0)
 		   	 	 	 	    cout<<"Error deleting file"<<endl;
 		   	 	 	 	 else
 		   	 	 	 	    cout<<"File successfully deleted"<<endl;
+<<<<<<< HEAD
 */
+=======
+
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 		    /* solverPAth="/home/sasghar/test/minisat/core/minisat_static";
 		     outPutPath="://home//sasghar//test/test.out";
 		     string temp=outPutPath;
@@ -314,13 +325,20 @@ bool JobController::waitforJobs(string jobid)
 		        	                   int exited = 0;
 
 		        	                   drmaa_wifexited(&exited, status, NULL, 0);
+<<<<<<< HEAD
 		        	                   freedCpus++;
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 
 		        	                   if (exited == 1) {
 		        	                      int exit_status = 0;
 
 		        	                      drmaa_wexitstatus(&exit_status, status, NULL, 0);
+<<<<<<< HEAD
 		        	                    //  printf("Job %s finished regularly with exit status %d\n", jobidu, exit_status);
+=======
+		        	                      //printf("Job %s finished regularly with exit status %d\n", jobidu, exit_status);
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 		        	                      if(exit_status==10)
 		        	                      {
 		        	                    	  cout<<"Formula is SATISFIABLE"<<endl
@@ -333,7 +351,10 @@ bool JobController::waitforJobs(string jobid)
 		        	                      {
 		        	                      //analysis("//home//sasghar//test/test.out");
 		        	                      batchCounter[batchId]-=1;
+<<<<<<< HEAD
 
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 		        	                      }
 		        	           	        //  cout<<"Job finished with UNSATISFIABLE"<<"Batch Id "<<batchId<<" Batch Id Coun="<<batchCounter[batchId]<<endl;
 
@@ -388,7 +409,12 @@ bool JobController::cleanUp()
 {
 	int errnum = 0;
 	  char error[DRMAA_ERROR_STRING_BUFFER];
+<<<<<<< HEAD
 
+=======
+	  int freeedCpus=0;
+	  int runningCpus=0;
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 
   	 for(unsigned int i=0;i<jobsIds.size();i++)
   	 {
@@ -396,19 +422,32 @@ bool JobController::cleanUp()
   		errnum = drmaa_control (jobsIds[i].c_str(), DRMAA_CONTROL_TERMINATE, error, DRMAA_ERROR_STRING_BUFFER);
   		if (errnum != DRMAA_ERRNO_SUCCESS)
   		{
+<<<<<<< HEAD
   		   //fprintf (stderr, "Could not kill job: %s\n", error);
 
+=======
+  		   fprintf (stderr, "Could not kill job: %s\n", error);
+  		 freeedCpus++;
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 
   		}
 
   		else
   		{
   			//cout<<"job #"<<jobsIds[i]<<" killed successfully"<<endl;
+<<<<<<< HEAD
 
   		}
 
   	 }
   	cout<< runningCpus <<" successfully Submitted, total number of CPUs reused is "<<ReusedCpus<<endl;
+=======
+  			runningCpus++;
+  		}
+
+  	 }
+  	cout<< runningCpus <<" running jobs are killed successfully, total number of reused CPUs is "<<freeedCpus<<endl;
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
   	errnum = drmaa_exit (error, DRMAA_ERROR_STRING_BUFFER);
   					if (errnum != DRMAA_ERRNO_SUCCESS) {
   						fprintf (stderr, "Could not shut down the DRMAA library: %s\n", error);
@@ -421,7 +460,11 @@ bool JobController::cleanUp()
 string JobController::runAsyncjob(vector<string> argv, char* outPut )
 {
 	// cout<<"jc.outPutPath="<<outPutPath<<endl;
+<<<<<<< HEAD
 	runningCpus++;
+=======
+
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 	const char** bargv= (const char**)malloc((argv.size() + 1) * sizeof(const char*));
 		    bargv[argv.size()] = NULL;
 		    	    for(int i = 0; i < argv.size(); ++i)
@@ -506,6 +549,7 @@ string JobController::runAsyncjob(vector<string> argv, char* outPut )
 				return string(jobid);
 
 	}
+<<<<<<< HEAD
 int  JobController::getNumRunningJobs()
 	{
 	return runningCpus - freedCpus;
@@ -526,4 +570,6 @@ void JobController::setReused(int Cpus)
 			 ReusedCpus+=Cpus;
 
 		}
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 

@@ -27,5 +27,8 @@ C_UPPER_DEPS :=
 SUBDIRS := \
 src/utils \
 src/core \
+<<<<<<< HEAD
 src/ClusterMonitor \
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 

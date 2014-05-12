@@ -20,7 +20,11 @@ struct Argumnets {
 int main(int argc, char *argv[])
 {
 	jc.StartTime=clock();
+<<<<<<< HEAD
 	exec(" qstat -g c | grep -v 'eela.q\\|tech.q\\|test.q' | awk '{Avaliable+=$3} { Used+=$4} {total+=$5} END {print Avaliable, Used, total}'");
+=======
+	exec(" qstat -g c | awk '{Avaliable+=$3} { Used+=$4} {total+=$5} END {print Avaliable, Used, total}'");
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 
 
 	 if( argc != 2 )
@@ -61,10 +65,14 @@ int SetEnv()
 
 	pPath = getenv ("COHORTSIZE");
 	  if (pPath.c_str()!=NULL)
+<<<<<<< HEAD
 	  {
 		  cohortSize= atoi(pPath.c_str());
 		  pathlength=cohortSize/2;
 	  }
+=======
+		  pathlength= atoi(pPath.c_str())/2;
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 	  else
 	  {
 		  cout<< "Environment variable COHORTSIZE is not set"<<endl;
@@ -184,7 +192,10 @@ void submitthreads(string argv)
 
 	    pthread_t threads[N];
 		int count=0;
+<<<<<<< HEAD
 		int NumCpus=0;
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 		struct Argumnets data [N];
 		Pdata *tdata;
 		vector<string> tokens;
@@ -196,6 +207,7 @@ void submitthreads(string argv)
 		{
 
 
+<<<<<<< HEAD
 			/*NumCpus=jc.getNumFinished();
 			cout<<"Number of free CPUS  "<<NumCpus<<" Max CPUs allowed are  "<<MAXCPUS<<endl;
 
@@ -223,6 +235,8 @@ void submitthreads(string argv)
 			}
 */
 
+=======
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 			args[i] = getPaths(pathlength);
 		    tokens=Fewfirst(args[i],pathlength);
 		    if(tokens.size()<=0)
@@ -353,10 +367,16 @@ return FewF;
 }
 void *BuildPaths(void* ptr)
 {
+<<<<<<< HEAD
 	int numthreads =pathlength*2;
 	//pthread_t *threads = malloc(sizeof(pthread_t)*numthreads);
 	pthread_t threads[numthreads];
 	string JIDs[numthreads];
+=======
+
+	pthread_t threads[ThreadN];
+	string JIDs[ThreadN];
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 	vector<string> tokens;
 	Pdata *P_data;
 	P_data=(Pdata *) ptr;
@@ -369,7 +389,11 @@ void *BuildPaths(void* ptr)
 
 
 					 JIDs[j]=SbmitJobs((char *)path.c_str());
+<<<<<<< HEAD
 					// cout<<"Submitted Job ID ="<<JIDs[j]<<endl;
+=======
+					//cout<<"Submitted Job ID ="<<JIDs[j]<<endl;
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 			 pthread_create( &threads[j], NULL, submit, (void *) JIDs[j].c_str());
 		}
 

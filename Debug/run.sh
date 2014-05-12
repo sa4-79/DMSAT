@@ -7,7 +7,11 @@ export TIMEOUT
 export COHORTSIZE
 # Setting the value for the wait time before subittng a new cohort of jobs
 
+<<<<<<< HEAD
  WAITTIME="60";
+=======
+ WAITTIME="30";
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
 export WAITTIME
 
 # Setting the value for initial ramp-up time 
@@ -17,6 +21,7 @@ export RAMPUPTIME
 
 #setting the value for the path to the worker solver 
 
+<<<<<<< HEAD
 #WORKERSOLVER="/home/sasghar/test/minisat/core/minisat"
 WORKERSOLVER="/home/sasghar/benchmark/minisat/core/minisat"
 
@@ -43,3 +48,14 @@ done
 
 #time ./DMSAT /home/sasghar/Random/unsat/unifk3r425v360c1530S1369720750015
 #time ./DMSAT  /home/sasghar/Random/SAT/unifk3r425v380c1615S1041106011094
+=======
+WORKERSOLVER="/benchmark/minisat/core/minisat"
+
+export WORKERSOLVER
+
+#setting the value of temporary inputpit file, the path should always start with ://
+OUTPUTFILE="://test/test.out"
+export OUTPUTFILE
+
+ ./DMSAT Random/SAT11/SAT11/random/medium/unif-k3-r4.26-v250-c1065-S266251785-083.UNKNOWN.cnf
+>>>>>>> eea7d1c5f1ceb25f3a27978b9d79de1cf58fbc40
